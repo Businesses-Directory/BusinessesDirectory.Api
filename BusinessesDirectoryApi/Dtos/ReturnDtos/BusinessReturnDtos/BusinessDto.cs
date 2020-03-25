@@ -1,0 +1,24 @@
+using System;
+
+namespace BusinessesDirectoryApi.Dtos.ReturnDtos.BusinessReturnDtos
+{
+  public class BusinessDto
+  {
+    public Guid BusinessId { get; set; }
+    public string BusinessName { get; set; }
+    public string BusinessTypeName { get; set; }
+    public string BusinessDescription { get; set; }
+    public string PrimaryPhoneNumber { get; set; }
+    public string SecondaryPhoneNumber { get; set; }
+    public BusinessHoursDto BusinessDaysAndHours { get; set; }
+    public string CityName { get; set; }
+    public string InFacebookAs { get; set; }
+    public string InInstagramAs { get; set; }
+    public bool HasDelivery { get; set; }
+    public bool HasCarryOut { get; set; }
+    public bool HasAthMovil { get; set; }
+    public bool InUberEats { get; set; }
+    public bool InDameUnBite { get; set; }
+    public bool InUva { get; set; }
+  }
+}
