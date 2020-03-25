@@ -1,0 +1,548 @@
+[
+  {
+    "CityId": "a34546b6-e928-4e58-93aa-557436c14cab",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Adjuntas",
+    "CityNormalizedName": "ADJUNTAS"
+  },
+  {
+    "CityId": "9bb320bf-0c54-4ff5-af5d-7c12fe27b57e",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Aguada",
+    "CityNormalizedName": "AGUADA"
+  },
+  {
+    "CityId": "3f9a7ad2-09e7-4706-8d46-ea9fbe015a96",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Aguadilla",
+    "CityNormalizedName": "AGUADILLA"
+  },
+  {
+    "CityId": "60333d66-424c-4783-accc-d110fc353f7a",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Aguas Buenas",
+    "CityNormalizedName": "AGUAS BUENAS"
+  },
+  {
+    "CityId": "3dc46a37-60b9-456a-9c39-ac362936f37c",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Aibonito",
+    "CityNormalizedName": "AIBONITO"
+  },
+  {
+    "CityId": "77c021b8-8b16-4245-bbfc-c758ea261376",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Arecibo",
+    "CityNormalizedName": "ARECIBO"
+  },
+  {
+    "CityId": "8311db29-f252-4d46-826a-c55fc8f030b2",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Arroyo",
+    "CityNormalizedName": "ARROYO"
+  },
+  {
+    "CityId": "905df3c7-1458-4cda-821b-1622dcd26ed0",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Añasco",
+    "CityNormalizedName": "ANASCO"
+  },
+  {
+    "CityId": "7d415be9-576d-40fa-9585-eac459c64f5c",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Barceloneta",
+    "CityNormalizedName": "BARCELONETA"
+  },
+  {
+    "CityId": "6d8259cf-6c3d-472c-8bdd-8576f7507705",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Barranquitas",
+    "CityNormalizedName": "BARRANQUITAS"
+  },
+  {
+    "CityId": "dd145d90-c477-459e-a6a0-99e50912314c",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Bayamón",
+    "CityNormalizedName": "BAYAMON"
+  },
+  {
+    "CityId": "e926eb0d-35b3-4282-a2f0-44de3cd22c37",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Cabo Rojo",
+    "CityNormalizedName": "CABO ROJO"
+  },
+  {
+    "CityId": "69516dbc-1a63-4be7-908d-6ec66204b5ce",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Caguas",
+    "CityNormalizedName": "CAGUAS"
+  },
+  {
+    "CityId": "0653674e-2b96-49c6-9b56-7d64da0777d7",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Camuy",
+    "CityNormalizedName": "CAMUY"
+  },
+  {
+    "CityId": "1d8c1598-0fd8-4da8-9dfd-14fee464447d",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Canóvanas",
+    "CityNormalizedName": "CANOVANAS"
+  },
+  {
+    "CityId": "57bf9f85-a01f-412d-b375-c2434b03df75",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Carolina",
+    "CityNormalizedName": "CAROLINA"
+  },
+  {
+    "CityId": "f6b47559-d5ad-4037-a2aa-132d2807e260",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Cataño",
+    "CityNormalizedName": "CATANO"
+  },
+  {
+    "CityId": "461b0ab0-3fb5-4bd5-9077-72cf7f744361",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Cayey",
+    "CityNormalizedName": "CAYEY"
+  },
+  {
+    "CityId": "667ccf4a-311c-4948-af3a-6c0882de4b41",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Ceiba",
+    "CityNormalizedName": "CAIBA"
+  },
+  {
+    "CityId": "75c6365b-882e-43b3-a005-017b21e35f82",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Ciales",
+    "CityNormalizedName": "CIALES"
+  },
+  {
+    "CityId": "da88bb34-e1b3-4c04-813f-ca11b6450cc8",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Cidra",
+    "CityNormalizedName": "CIDRA"
+  },
+  {
+    "CityId": "fd0682e7-826d-4795-8bdc-650c9741303d",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Coamo",
+    "CityNormalizedName": "COAMO"
+  },
+  {
+    "CityId": "fe754a34-eb46-4d76-958b-0bf08a7dd315",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Comerío",
+    "CityNormalizedName": "COMERIO"
+  },
+  {
+    "CityId": "f703ca68-46a8-40cd-8496-5b263073a8bc",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Corozal",
+    "CityNormalizedName": "COROZAL"
+  },
+  {
+    "CityId": "98c0b48d-6c47-4e87-a8ac-05c085ec45d9",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Culebra",
+    "CityNormalizedName": "CULEBRA"
+  },
+  {
+    "CityId": "8b34ef59-3248-4e98-969d-5ffaa578f3de",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Dorado",
+    "CityNormalizedName": "DORADO"
+  },
+  {
+    "CityId": "9bc2c2ab-889d-45c1-b379-7ed9481b9d01",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Fajardo",
+    "CityNormalizedName": "FAJARDO"
+  },
+  {
+    "CityId": "0cb2383f-2044-4b95-9ca4-7006dc83a5e4",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Florida",
+    "CityNormalizedName": "FLORIDA"
+  },
+  {
+    "CityId": "cb105016-22d8-4d39-9a95-fab4b4893e4d",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Guayama",
+    "CityNormalizedName": "GUAYAMA"
+  },
+  {
+    "CityId": "03020494-412d-4818-ad73-c0aa70898b9d",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Guayanilla",
+    "CityNormalizedName": "GUAYANILLA"
+  },
+  {
+    "CityId": "b9f646a0-dfdd-4836-8205-bfa7e46bdbc1",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Guaynabo",
+    "CityNormalizedName": "GUAYNABO"
+  },
+  {
+    "CityId": "a24d4e40-6666-40e5-b58a-818288d710b8",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Gurabo",
+    "CityNormalizedName": "GURABO"
+  },
+  {
+    "CityId": "f5d8401c-6b43-4ed4-85fb-593e3546f7d7",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Guánica",
+    "CityNormalizedName": "GUANICA"
+  },
+  {
+    "CityId": "a721789a-307c-4bb6-b7c2-c4f8791ed3ae",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Hatillo",
+    "CityNormalizedName": "HATILLO"
+  },
+  {
+    "CityId": "67629492-2cb1-41e6-a996-851bb4c79ee5",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Hormigueros",
+    "CityNormalizedName": "HORMIGUEROS"
+  },
+  {
+    "CityId": "83ff6326-b302-4c47-b8a2-ad4b1c29c2a7",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Humacao",
+    "CityNormalizedName": "HUMACAO"
+  },
+  {
+    "CityId": "36428b07-e044-4177-a8b3-f2afeb878c05",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Isabela",
+    "CityNormalizedName": "ISABELA"
+  },
+  {
+    "CityId": "82c4f6d5-8733-4fb0-be9a-2bb2614d1eab",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Jayuya",
+    "CityNormalizedName": "JAYUYA"
+  },
+  {
+    "CityId": "917b26fe-da90-4d07-8ed5-5b74864079be",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Juana Díaz",
+    "CityNormalizedName": "JUANA DIAZ"
+  },
+  {
+    "CityId": "93e9df5a-8564-49c5-9bf0-b0c01e0c004b",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Juncos",
+    "CityNormalizedName": "JUNCOS"
+  },
+  {
+    "CityId": "f54a0749-1470-491f-bbd7-34aab61539d2",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Lajas",
+    "CityNormalizedName": "LAJAS"
+  },
+  {
+    "CityId": "872ab5be-0eb3-4ba3-ac48-357a2a10c923",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Lares",
+    "CityNormalizedName": "LARES"
+  },
+  {
+    "CityId": "15a4a006-2ae1-472d-939b-22b58f00b169",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Las Marías",
+    "CityNormalizedName": "LAS MARIAS"
+  },
+  {
+    "CityId": "70bf6023-ddde-4839-a169-17e025cda383",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Las Piedras",
+    "CityNormalizedName": "LAS PIEDRAS"
+  },
+  {
+    "CityId": "85afc833-4ef8-40cf-ab10-de5517ddbab3",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Loiza",
+    "CityNormalizedName": "LOIZA"
+  },
+  {
+    "CityId": "77b0729c-b4f5-4d2a-9d33-6616fe9d40e6",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Luquillo",
+    "CityNormalizedName": "LUQUILLO"
+  },
+  {
+    "CityId": "356284a5-9ead-466a-8e7d-c39b34c16926",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Manatí",
+    "CityNormalizedName": "MANATI"
+  },
+  {
+    "CityId": "43ee1132-8bff-4786-8073-42c98166d21b",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Maricao",
+    "CityNormalizedName": "MARICAO"
+  },
+  {
+    "CityId": "54674b07-1803-4d17-b282-93db14e5d0c1",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Maunabo",
+    "CityNormalizedName": "MAUNABO"
+  },
+  {
+    "CityId": "fc6bf95a-63b7-41d5-938c-1e1a53ea54ff",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Mayagüez",
+    "CityNormalizedName": "MAYAGUEZ"
+  },
+  {
+    "CityId": "52cbb1e1-8182-4faf-be62-b8d945e3f3ff",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Moca",
+    "CityNormalizedName": "MOCA"
+  },
+  {
+    "CityId": "e7da3185-e49f-4a59-a5b7-8db4bdf25796",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Morovis",
+    "CityNormalizedName": "MOROVIS"
+  },
+  {
+    "CityId": "980dc520-61e1-4fdc-a50b-b3537ff4a668",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Naguabo",
+    "CityNormalizedName": "NAGUABO"
+  },
+  {
+    "CityId": "72921b7d-8a4b-498f-8be0-163e1bb85064",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Naranjito",
+    "CityNormalizedName": "NARANJITO"
+  },
+  {
+    "CityId": "ce94f5db-709a-4105-8f1c-c731cf3e71f1",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Orocovis",
+    "CityNormalizedName": "OROCOVIS"
+  },
+  {
+    "CityId": "f2354223-3d53-4f9f-b3b9-2a0f8932f2b3",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Patillas",
+    "CityNormalizedName": "PATILLAS"
+  },
+  {
+    "CityId": "10cb1564-76f2-440e-8953-9b8bef2c0067",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Peñuelas",
+    "CityNormalizedName": "PENUELAS"
+  },
+  {
+    "CityId": "82db4b07-0038-4d9f-8f53-bc065faa34a5",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Ponce",
+    "CityNormalizedName": "PONCE"
+  },
+  {
+    "CityId": "3807c97e-d0ed-48e3-9205-3a8474e2db2e",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Quebradillas",
+    "CityNormalizedName": "QUEBRADILLAS"
+  },
+  {
+    "CityId": "05b422ae-3f96-4a4b-bbe1-d606732a9899",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Rincón",
+    "CityNormalizedName": "RINCON"
+  },
+  {
+    "CityId": "cdc46b0e-45b3-40a6-9254-38a5ad112227",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Rio Grande",
+    "CityNormalizedName": "RIO GRANDE"
+  },
+  {
+    "CityId": "9c0ceb90-32be-443f-9c56-24ed39cfffd7",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Sabana Grande",
+    "CityNormalizedName": "SABANA GRANDE"
+  },
+  {
+    "CityId": "7889c860-4d89-4197-a3fa-65436bd51bd5",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Salinas",
+    "CityNormalizedName": "SALINAS"
+  },
+  {
+    "CityId": "7221f09c-ab06-4853-96ae-a8060e3c83f9",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "San Germán",
+    "CityNormalizedName": "SAN GERMAN"
+  },
+  {
+    "CityId": "61e28aa4-aad9-493a-b8ed-a32559048b17",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "San Juan",
+    "CityNormalizedName": "SAN JUAN"
+  },
+  {
+    "CityId": "09cc1704-dc9c-457b-af88-7547182816a3",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "San Lorenzo",
+    "CityNormalizedName": "SAN LORENZO"
+  },
+  {
+    "CityId": "def0f4c0-58ef-4cea-b88f-a7f5cf2e4223",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "San Sebastián",
+    "CityNormalizedName": "SAN SEBASTIAN"
+  },
+  {
+    "CityId": "de2f0e2b-049d-4f0b-9b5c-27cba85adc64",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Santa Isabel",
+    "CityNormalizedName": "SANTA ISABEL"
+  },
+  {
+    "CityId": "64d9b311-4b33-48d6-95cb-e52fa939ba8d",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Toa Alta",
+    "CityNormalizedName": "TOA ALTA"
+  },
+  {
+    "CityId": "14b21f07-20a2-4059-afe6-8ba0a434b6cb",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Toa Baja",
+    "CityNormalizedName": "TOA BAJA"
+  },
+  {
+    "CityId": "fade42a2-217d-4214-8b0e-55c45dee2a53",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Trujillo Alto",
+    "CityNormalizedName": "TRUJILLO ALTO"
+  },
+  {
+    "CityId": "3d88acc8-1fe2-4557-9a8e-d0331e391b46",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Utuado",
+    "CityNormalizedName": "UTUADO"
+  },
+  {
+    "CityId": "69cd3bbe-d289-4c50-8cdb-e15976d65b5c",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Vega Alta",
+    "CityNormalizedName": "VEGA ALTA"
+  },
+  {
+    "CityId": "acd2e245-c044-401e-860d-0b07d1872446",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Vega Baja",
+    "CityNormalizedName": "VEGA BAJA"
+  },
+  {
+    "CityId": "7c815ea7-8582-4edb-85b7-35da7f5df055",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Vieques",
+    "CityNormalizedName": "VIEQUES"
+  },
+  {
+    "CityId": "d3aca2a8-2f5e-41c2-aae6-431891dcdec4",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Villalba",
+    "CityNormalizedName": "VILLALBA"
+  },
+  {
+    "CityId": "06b64e0d-a53f-4f9f-8a2f-d4d6637091cd",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Yabucoa",
+    "CityNormalizedName": "YABUCOA"
+  },
+  {
+    "CityId": "0400446c-f81a-48ef-b7e2-678df2b44752",
+    "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
+    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CityName": "Yauco",
+    "CityNormalizedName": "YAUCO"
+  }
+]
