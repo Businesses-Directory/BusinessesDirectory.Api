@@ -15,15 +15,15 @@ namespace BusinessesDirectoryApi.Dtos.CreateDtos.BusinessDtos
     public string WednesdayHours { get; set; }
     [Required (ErrorMessage = "Please indicate if the business operates on Thursdays.")]
     public bool Thursday { get; set; }
-    public bool ThursdayHours { get; set; }
+    public string ThursdayHours { get; set; }
     [Required (ErrorMessage = "Please indicate if the business operates on Fridays.")]
     public bool Friday { get; set; }
-    public bool FridayHours { get; set; }
+    public string FridayHours { get; set; }
     [Required (ErrorMessage = "Please indicate if the business operates on Saturdays.")]
     public bool Saturday { get; set; }
     public string SaturdayHours { get; set; }
     [Required (ErrorMessage = "Please indicate if the business operates on Sundays.")]
     public bool Sunday { get; set; }
-    public bool SundayHours { get; set; }
+    public string SundayHours { get; set; }
   }
 }
