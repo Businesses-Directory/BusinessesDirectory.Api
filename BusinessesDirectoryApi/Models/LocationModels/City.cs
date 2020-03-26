@@ -59,9 +59,9 @@ namespace BusinessesDirectoryApi.Models.LocationModels
         .IsRequired()
         .HasMaxLength(100);
 
-      entity.HasOne(d => d.State)
-        .WithMany(p => p.City)
-        .HasForeignKey(d => new { d.StateId, d.CountryId })
+      entity.HasOne(e => e.State)
+        .WithMany(s => s.City)
+        .HasForeignKey(e => new { e.StateId, e.CountryId })
         .OnDelete(DeleteBehavior.ClientSetNull)
         .HasConstraintName("State_To_City_FK");
     }

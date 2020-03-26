@@ -69,7 +69,7 @@ namespace BusinessesDirectoryApi.Models.BusinessModels
         .HasMaxLength(300);
 
       entity.HasIndex(e => e.BusinessTypeId)
-        .HasName("BusinessTypeId_To_Business_FK");
+        .HasName("BusinessTypeId_To_BusinessTable_FK");
 
       entity.Property(e => e.BusinessDescription)
         .IsRequired()
@@ -83,14 +83,26 @@ namespace BusinessesDirectoryApi.Models.BusinessModels
         .HasMaxLength(20);
 
       entity.HasIndex(e => new { e.CityId, e.StateId, e.CountryId })
-        .HasName("CityId_StateId_CountryId_To_Business_FK");
+        .HasName("CityId_StateId_CountryId_To_BusinessTable_FK");
 
       entity.Property(e => e.BusinessDaysAndHours)
         .IsRequired()
         .HasConversion(
-            e => JsonSerializer.Serialize(e),
-            e => JsonSerializer.Parse<BusinessHours>(e)
+          e => JsonSerializer.Serialize(e),
+          e => JsonSerializer.Parse<BusinessHours>(e)
         );
+
+      entity.HasOne(e => e.City)
+        .WithMany(c => c.Business)
+        .HasForeignKey(e => new { e.CityId, e.StateId, e.CountryId })
+        .OnDelete(DeleteBehavior.ClientSetNull)
+        .HasConstraintName("City_To_Business_Fk");
+
+      entity.HasOne(e => e.BusinessType)
+        .WithMany(bt => bt.Business)
+        .HasForeignKey(e => e.BusinessTypeId)
+        .OnDelete(DeleteBehavior.ClientSetNull)
+        .HasConstraintName("BusinessType_To_Business_Fk");
     }
   }
 }

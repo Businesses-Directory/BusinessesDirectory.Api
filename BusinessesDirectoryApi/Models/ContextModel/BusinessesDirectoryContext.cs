@@ -54,11 +54,14 @@ namespace BusinessesDirectoryApi.Models.ContextModel
     protected override void OnModelCreating(ModelBuilder builder)
     {
       base.OnModelCreating(builder);
+
       builder.ApplyConfiguration(new CountryConfiguration());
 
       builder.ApplyConfiguration(new StateConfiguration());
 
       builder.ApplyConfiguration(new CityConfiguration());
+
+      builder.ApplyConfiguration(new BusinessTypeConfiguration());
 
       builder.ApplyConfiguration(new BusinessConfiguration());
     }

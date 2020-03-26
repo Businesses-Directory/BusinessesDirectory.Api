@@ -12,9 +12,9 @@ namespace BusinessesDirectoryApi.Repositories
   public class LocationRepository : ILocationRepository
   {
     private readonly BusinessesDirectoryContext _context;
-    public LocationRepository()
+    public LocationRepository(BusinessesDirectoryContext context)
     {
-
+      this._context = context;
     }
     public async Task<ICollection<City>> FindAllCities()
     {
