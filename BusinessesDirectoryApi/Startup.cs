@@ -15,6 +15,9 @@ using BusinessesDirectoryApi.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using BusinessesDirectoryApi.Services.TypesServices;
 using BusinessesDirectoryApi.Repositories.TypesRepositories;
+using BusinessesDirectoryApi.Models.ContextModel;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace BusinessesDirectoryApi
 {
@@ -30,6 +33,13 @@ namespace BusinessesDirectoryApi
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
+      var sqlServerConnectionString = Configuration.GetConnectionString("SQLCONNSTR_BUSINESSESDIRECTORY");
+      if (sqlServerConnectionString == null)
+      {
+        throw new Exception("BUSINESSESDIRECTORY connection string is not set.");
+      }
+      services.AddDbContext<BusinessesDirectoryContext>(options =>
+        options.UseSqlServer(sqlServerConnectionString));
       services.AddCors(options =>
         {
           options.AddPolicy(allowedDevelopmentOrigin,

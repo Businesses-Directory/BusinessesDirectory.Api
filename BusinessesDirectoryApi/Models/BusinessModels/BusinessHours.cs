@@ -11,13 +11,13 @@ namespace BusinessesDirectoryApi.Models.BusinessModels
     public bool Wednesday { get; set; } // Default value: false
     public string WednesdayHours { get; set; } // "8:30AM - 5:30PM"
     public bool Thursday { get; set; } // Default value: false
-    public bool ThursdayHours { get; set; } // "8:30AM - 5:30PM"
+    public string ThursdayHours { get; set; } // "8:30AM - 5:30PM"
     public bool Friday { get; set; } // Default value: false
-    public bool FridayHours { get; set; } // "8:30AM - 5:30PM"
+    public string FridayHours { get; set; } // "8:30AM - 5:30PM"
     public bool Saturday { get; set; } // Default value: false
     public string SaturdayHours { get; set; } // "8:30AM - 5:30PM"
     public bool Sunday { get; set; } // Default value: false
-    public bool SundayHours { get; set; } // "8:30AM - 5:30PM"
+    public string SundayHours { get; set; } // "8:30AM - 5:30PM"
 
     public override string ToString()
     {

@@ -20,6 +20,17 @@ namespace BusinessesDirectoryApi.Models.ContextModel
     public virtual DbSet<City> City { get; set; }
     public virtual DbSet<BusinessType> BusinessType { get; set; }
     public virtual DbSet<Business> Business { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+      if (!optionsBuilder.IsConfigured)
+      {
+        var errorMessage = "SQLCONNSTR_BUSINESSESDIRECTORY environment variable not found.";
+        var connectionStringExample = "Connection string format example: Server=localhost;Database=MyDB;user id=sa;password=MyPassword;";
+        var error = String.Format("{0}\n{1}", errorMessage, connectionStringExample);
+        throw new Exception(error);
+      }
+    }
     public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default(CancellationToken))
     {
       var AddedEntities = ChangeTracker.Entries<IAuditableModel>().Where(E => E.State == EntityState.Added).ToList();
