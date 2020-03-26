@@ -22,8 +22,8 @@ namespace BusinessesDirectoryApi.Dtos.CreateDtos.BusinessDtos
     public string StateId { get; set; }
     [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the countryId.")]
     public string CountryId { get; set; }
-    public bool InFacebookAs { get; set; }
-    public bool InInstagramAs { get; set; }
+    public string InFacebookAs { get; set; }
+    public string InInstagramAs { get; set; }
     [Required (ErrorMessage = "Please indicate if your business has delivery service.")]
     public bool HasDelivery { get; set; }
     [Required (ErrorMessage = "Please indicate if your business has carry-out service.")]
