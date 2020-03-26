@@ -1,19 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
+using AutoMapper;
 using System.Linq;
 using System.Threading.Tasks;
-using BusinessesDirectoryApi.Repositories;
-using BusinessesDirectoryApi.Repositories.TypesRepositories;
-using BusinessesDirectoryApi.Services;
-using BusinessesDirectoryApi.Services.TypesServices;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using BusinessesDirectoryApi.Services;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.Extensions.Configuration;
+using BusinessesDirectoryApi.Repositories;
+using Microsoft.Extensions.DependencyInjection;
+using BusinessesDirectoryApi.Services.TypesServices;
+using BusinessesDirectoryApi.Repositories.TypesRepositories;
 
 namespace BusinessesDirectoryApi
 {
@@ -27,9 +28,10 @@ namespace BusinessesDirectoryApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper();
             services.AddScoped<IBusinessService, BusinessService>();
-            services.AddScoped<IBusinessRepository, BusinessRepository>();
             services.AddScoped<IBusinessTypeService, BusinessTypeService>();
+            services.AddScoped<IBusinessRepository, BusinessRepository>();
             services.AddScoped<IBusinessTypeRepository, BusinessTypeRepository>();
             services.AddScoped<ILocationService, LocationService>();
             services.AddScoped<ILocationRepository, LocationRepository>();
