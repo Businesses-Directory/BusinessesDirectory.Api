@@ -18,6 +18,7 @@ namespace BusinessesDirectoryApi.Models.ContextModel
     public virtual DbSet<Country> Country { get; set; }
     public virtual DbSet<State> State { get; set; }
     public virtual DbSet<City> City { get; set; }
+    public virtual DbSet<BusinessType> BusinessType { get; set; }
     public virtual DbSet<Business> Business { get; set; }
     public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default(CancellationToken))
     {
@@ -54,11 +55,14 @@ namespace BusinessesDirectoryApi.Models.ContextModel
     protected override void OnModelCreating(ModelBuilder builder)
     {
       base.OnModelCreating(builder);
+
       builder.ApplyConfiguration(new CountryConfiguration());
 
       builder.ApplyConfiguration(new StateConfiguration());
 
       builder.ApplyConfiguration(new CityConfiguration());
+
+      builder.ApplyConfiguration(new BusinessTypeConfiguration());
 
       builder.ApplyConfiguration(new BusinessConfiguration());
     }

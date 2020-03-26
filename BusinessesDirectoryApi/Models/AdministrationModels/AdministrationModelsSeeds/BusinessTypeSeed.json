@@ -1,0 +1,116 @@
+[
+  {
+    "BusinessTypeId": "e3f3de03-5479-44e5-a93b-8e902140ad6f",
+    "BusinessTypeName": "Doctor",
+    "BusinessTypeNormalizedName": "DOCTOR",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "1bac085c-047b-4ea4-ad9a-9d15fb618480",
+    "BusinessTypeName": "Restaurante",
+    "BusinessTypeNormalizedName": "RESTAURANTE",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "55dea5ad-a207-4888-80f3-687d60dfcb42",
+    "BusinessTypeName": "Sala de Emergencias",
+    "BusinessTypeNormalizedName": "SALA DE EMERGENCIAS",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "b32d8fd4-a1be-4cbd-b4a1-649370a3a185",
+    "BusinessTypeName": "Hospital",
+    "BusinessTypeNormalizedName": "HOSPITAL",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "7d6117cd-6273-4840-bcec-850147abe4f6",
+    "BusinessTypeName": "Cafetería",
+    "BusinessTypeNormalizedName": "CAFETERIA",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "98c4a92e-6bfd-4716-bf59-528831de665c",
+    "BusinessTypeName": "Farmacia",
+    "BusinessTypeNormalizedName": "FARMACIA",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "65a2268d-c4fc-4cfb-ad0d-faa5762c8d4c",
+    "BusinessTypeName": "Supermercado",
+    "BusinessTypeNormalizedName": "SUPERMERCADO",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "6bb1149d-5af3-431e-80f0-21abf3f518d1",
+    "BusinessTypeName": "Seguridad",
+    "BusinessTypeNormalizedName": "SEGURIDAD",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "9d37596f-90f2-4943-8cdd-df00584e55bb",
+    "BusinessTypeName": "Farmacéutica",
+    "BusinessTypeNormalizedName": "FARMACEUTICA",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "dc2fd4e1-9f1e-47b4-943d-74af8fb94c18",
+    "BusinessTypeName": "Gasolinera",
+    "BusinessTypeNormalizedName": "GASOLINERA",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "84a4f1aa-8586-4600-ae34-e0a235c45535",
+    "BusinessTypeName": "centro de cuido de anciano",
+    "BusinessTypeNormalizedName": "CENTRO DE CUIDO DE ANCIANOS",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "1ddb4c53-69a2-43e7-aaf5-679e710dd6b4",
+    "BusinessTypeName": "Banco",
+    "BusinessTypeNormalizedName": "BANCO",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "b17d6299-2312-4fb1-a109-88b1a2c03267",
+    "BusinessTypeName": "Venta de Equipos Médicos",
+    "BusinessTypeNormalizedName": "VENTA DE EQUIPOS MEDICOS",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "ae0960be-9b46-4ce3-93d5-cae5a732a948",
+    "BusinessTypeName": "Venta de Medicamentos",
+    "BusinessTypeNormalizedName": "VENTA DE MEDICAMENTOS",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "e4eb8c3e-87cd-4e9e-8200-2bec76f81744",
+    "BusinessTypeName": "Distribución de Alimentos",
+    "BusinessTypeNormalizedName": "DISTRIBUCION DE ALIMENTOS",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "496600f0-0042-45da-af59-c6e94e02ff5e",
+    "BusinessTypeName": "Distribución de Medicamentos",
+    "BusinessTypeNormalizedName": "DISTRIBUCION DE MEDICAMENTOS",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "4ec4ae94-e41b-4797-aa3a-37a93aa5b4cb",
+    "BusinessTypeName": "Distribución de Artículos Médicos",
+    "BusinessTypeNormalizedName": "DISTRIBUCION DE ARTICULOS MEDICOS",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "6bd9c42a-fef4-417c-9940-3c677bf1332a",
+    "BusinessTypeName": "Distribución de Combustible",
+    "BusinessTypeNormalizedName": "DISTRIBUCION DE COMBUSTIBLE",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
+    "BusinessTypeId": "e78d7ed4-88bf-4467-89da-5d1fcb22167f",
+    "BusinessTypeName": "Financiera",
+    "BusinessTypeNormalizedName": "FINANCIERA",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  }
+]
