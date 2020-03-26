@@ -18,39 +18,57 @@ using BusinessesDirectoryApi.Repositories.TypesRepositories;
 
 namespace BusinessesDirectoryApi
 {
-    public class Startup
+  public class Startup
+  {
+    private readonly string allowedDevelopmentOrigin = "AllowAngularCliOrigin";
+    private readonly string allowedProductionOrigin = "AllowOrigin";
+    public Startup(IConfiguration configuration)
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
-        public IConfiguration Configuration { get; }
-        // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddAutoMapper();
-            services.AddScoped<IBusinessService, BusinessService>();
-            services.AddScoped<IBusinessTypeService, BusinessTypeService>();
-            services.AddScoped<IBusinessRepository, BusinessRepository>();
-            services.AddScoped<IBusinessTypeRepository, BusinessTypeRepository>();
-            services.AddScoped<ILocationService, LocationService>();
-            services.AddScoped<ILocationRepository, LocationRepository>();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-        }
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
-            app.UseHttpsRedirection();
-            app.UseMvc();
-        }
+      Configuration = configuration;
     }
+    public IConfiguration Configuration { get; }
+    // This method gets called by the runtime. Use this method to add services to the container.
+    public void ConfigureServices(IServiceCollection services)
+    {
+      services.AddCors(options =>
+        {
+          options.AddPolicy(allowedDevelopmentOrigin,
+            policy => policy.WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+          );
+          options.AddPolicy(allowedProductionOrigin,
+            policy => policy.WithOrigins("https://www.lockdowndirectory.com")
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+          );
+        }
+      );
+      services.AddAutoMapper();
+      services.AddScoped<IBusinessService, BusinessService>();
+      services.AddScoped<IBusinessTypeService, BusinessTypeService>();
+      services.AddScoped<IBusinessRepository, BusinessRepository>();
+      services.AddScoped<IBusinessTypeRepository, BusinessTypeRepository>();
+      services.AddScoped<ILocationService, LocationService>();
+      services.AddScoped<ILocationRepository, LocationRepository>();
+      services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+    }
+      // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+    public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+    {
+      if (env.IsDevelopment())
+      {
+        app.UseDeveloperExceptionPage();
+        app.UseCors(allowedDevelopmentOrigin);
+      }
+      else
+      {
+        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+        app.UseHsts();
+        app.UseCors(allowedProductionOrigin);
+      }
+      app.UseHttpsRedirection();
+      app.UseMvc();
+    }
+  }
 }

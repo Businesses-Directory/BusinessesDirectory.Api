@@ -4,8 +4,11 @@ using BusinessesDirectoryApi.Services.TypesServices;
 using BusinessesDirectoryApi.Validations;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace BusinessesDirectoryApi.Controllers
 {
+  [Route("api/[controller]")]
+  [ApiController]
   public class BusinessTypesController : ControllerBase
   {
     private readonly IBusinessTypeService _businessTypeService;
