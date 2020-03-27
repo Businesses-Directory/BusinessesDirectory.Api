@@ -18,6 +18,7 @@ using BusinessesDirectoryApi.Repositories.TypesRepositories;
 using BusinessesDirectoryApi.Models.ContextModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using BusinessesDirectoryApi.Models.SeedModel;
 
 namespace BusinessesDirectoryApi
 {
@@ -33,7 +34,7 @@ namespace BusinessesDirectoryApi
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      var sqlServerConnectionString = Configuration.GetConnectionString("SQLCONNSTR_BUSINESSESDIRECTORY");
+      var sqlServerConnectionString = Configuration.GetConnectionString("SQLCONNSTR_BUSINESSESDIRECTORY2");
       if (sqlServerConnectionString == null)
       {
         throw new Exception("BUSINESSESDIRECTORY connection string is not set.");
@@ -54,6 +55,7 @@ namespace BusinessesDirectoryApi
           );
         }
       );
+      services.AddTransient<Seed>();
       services.AddAutoMapper();
       services.AddScoped<IBusinessService, BusinessService>();
       services.AddScoped<IBusinessTypeService, BusinessTypeService>();
@@ -64,10 +66,11 @@ namespace BusinessesDirectoryApi
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
     }
       // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-    public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+    public void Configure(IApplicationBuilder app, IHostingEnvironment env, Seed seeder)
     {
       if (env.IsDevelopment())
       {
+        seeder.SeedDb();
         app.UseDeveloperExceptionPage();
         app.UseCors(allowedDevelopmentOrigin);
       }
@@ -79,6 +82,7 @@ namespace BusinessesDirectoryApi
       }
       app.UseHttpsRedirection();
       app.UseMvc();
+      app.UseSpa(spa => { });
     }
   }
 }
