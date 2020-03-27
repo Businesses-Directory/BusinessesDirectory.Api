@@ -16,7 +16,7 @@ namespace BusinessesDirectoryApi.Controllers
       this._businessService = businessService;
     }
     [HttpGet]
-    public async Task<IActionResult> GetAllBusinesses([FromBody] BusinessSearchParams businessSearchParams)
+    public async Task<IActionResult> GetAllBusinesses([FromQuery] BusinessSearchParams businessSearchParams)
     {
       var businesses = await _businessService.FindBusinesses(businessSearchParams);
       return Ok(businesses);
