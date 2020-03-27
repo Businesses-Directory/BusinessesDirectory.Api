@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CpE9bOG4DUCXXklpuUD1iZg9aCY5XsJLe/n4F5l3uYs5TJ7fvA591y/Insvme7Cbs5/g+H0xzJcrcMRkPACJVg==",
+  "dgSpecHash": "BA26l6wra9bY5mto3NeOISRpjDR7UyMOS3n8QZpcO6ZbZC8Goy0VGIsMnlgVBouRdDCcoWkaM17WSPAITF4opA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj",
+  "projectFilePath": "C:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GabrielABravoCarrasq\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\GabrielABravoCarrasq\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.0.0\\automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",

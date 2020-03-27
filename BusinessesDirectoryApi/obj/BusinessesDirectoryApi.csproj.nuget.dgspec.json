@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj": {}
+    "C:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj": {
+    "C:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj",
+        "projectUniqueName": "C:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj",
         "projectName": "BusinessesDirectoryApi",
-        "projectPath": "c:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj",
+        "projectPath": "C:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj",
         "packagesPath": "C:\\Users\\GabrielABravoCarrasq\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\obj\\",
+        "outputPath": "C:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\GabrielABravoCarrasq\\AppData\\Roaming\\NuGet\\NuGet.Config",

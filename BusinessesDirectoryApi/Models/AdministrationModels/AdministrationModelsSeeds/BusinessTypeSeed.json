@@ -1,5 +1,11 @@
 [
   {
+    "BusinessTypeId": "0712dfec-b2a1-4f41-b4d8-b839ab5a87d9",
+    "BusinessTypeName": "Gomera",
+    "BusinessTypeNormalizedName": "GOMERA",
+    "BusinessTypeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra maximus ultricies. Vestibulum facilisis dui ac molestie commodo. Nunc egestas a enim a pellentesque. Proin ac accumsan turpis, a consectetur quam. Proin egestas nisl tincidunt sodales condimentum."
+  },
+  {
     "BusinessTypeId": "e3f3de03-5479-44e5-a93b-8e902140ad6f",
     "BusinessTypeName": "Doctor",
     "BusinessTypeNormalizedName": "DOCTOR",

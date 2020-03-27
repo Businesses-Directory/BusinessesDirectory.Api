@@ -24,10 +24,10 @@ namespace BusinessesDirectoryApi.Controllers
     [HttpPost]
     public async Task<IActionResult> CreateBusiness([FromBody] BusinessToCreateDto businessToCreateDto)
     {
-      var business = businessToCreateDto;
-      return Ok(business);
-      // var business = await _businessService.AddABusiness(businessToCreateDto);
-      // return CreatedAtRoute(null, business);
+      // var business = businessToCreateDto;
+      // return Ok(business);
+      var business = await _businessService.AddABusiness(businessToCreateDto);
+      return CreatedAtRoute(null, business);
     }
     // GET api/values/5
     // [HttpGet("{id}")]
