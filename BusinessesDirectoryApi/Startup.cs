@@ -34,7 +34,11 @@ namespace BusinessesDirectoryApi
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      var sqlServerConnectionString = Configuration.GetConnectionString("SQLCONNSTR_BUSINESSESDIRECTORY2");
+      // AngelR   ConnectionString: "SQLCONNSTR_BUSINESSESDIRECTORY": "Server=IVDL0122;Initial Catalog=BusinessesDirectory;User ID=sa;Password=12345678;"
+      // JoséR    ConnectionString: "SQLCONNSTR_BUSINESSESDIRECTORY": "Server=[computername];Initial Catalog=BusinessesDirectory;User ID=sa;Password=[password];"
+      // GabrielA ConnectionString: "SQLCONNSTR_BUSINESSESDIRECTORY": "Server=[computername];Initial Catalog=BusinessesDirectory;User ID=sa;Password=[password];"
+      // Azure ConnectionString: "SQLCONNSTR_BUSINESSESDIRECTORY": [Azure Connection String]
+      var sqlServerConnectionString = Configuration.GetConnectionString("SQLCONNSTR_BUSINESSESDIRECTORY");
       if (sqlServerConnectionString == null)
       {
         throw new Exception("BUSINESSESDIRECTORY connection string is not set.");
