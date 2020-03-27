@@ -1,16 +1,16 @@
+using System;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using BusinessesDirectoryApi.Models.BusinessModels;
 using BusinessesDirectoryApi.Models.LocationModels;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using BusinessesDirectoryApi.Models.AdministrationModels;
-using System.Threading.Tasks;
-using System.Linq;
-using System.Threading;
-using System;
 
 namespace BusinessesDirectoryApi.Models.ContextModel
 {
-  public class BusinessesDirectoryContext : IdentityDbContext
+  public class BusinessesDirectoryContext : DbContext
   {
     public BusinessesDirectoryContext(){}
     public BusinessesDirectoryContext(DbContextOptions<BusinessesDirectoryContext> options) : base(options) {}
