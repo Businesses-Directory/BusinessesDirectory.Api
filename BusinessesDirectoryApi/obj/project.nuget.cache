@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bIIf3csXm8U+0BiJkOeaneRiXVhmJa+mn7J/duqdVXW2RxCnd6ZepoJe7D35NZKdzha2sxecxeqxRnqiYYnjjA==",
+  "dgSpecHash": "BA26l6wra9bY5mto3NeOISRpjDR7UyMOS3n8QZpcO6ZbZC8Goy0VGIsMnlgVBouRdDCcoWkaM17WSPAITF4opA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj",
+  "projectFilePath": "C:\\Users\\GabrielABravoCarrasq\\INVID\\BusinessesDirectory.Api\\BusinessesDirectoryApi\\BusinessesDirectoryApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\GabrielABravoCarrasq\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\GabrielABravoCarrasq\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
+    "C:\\Users\\GabrielABravoCarrasq\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.0.0\\automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\GabrielABravoCarrasq\\.nuget\\packages\\bcrypt.net-next\\3.3.3\\bcrypt.net-next.3.3.3.nupkg.sha512",
     "C:\\Users\\GabrielABravoCarrasq\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\GabrielABravoCarrasq\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
