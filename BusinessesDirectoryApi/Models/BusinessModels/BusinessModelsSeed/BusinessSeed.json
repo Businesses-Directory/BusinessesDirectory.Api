@@ -4,7 +4,7 @@
     "BusinessName": "Cafetería Papo",
     "BusinessTypeId": "7d6117cd-6273-4840-bcec-850147abe4f6",
     "BusinessDescription": "La mejor comida criolla en toda la ruta gastronómica de la PR-152 en Naranjito.",
-    "BrimaryPhoneNumber": "7779998888",
+    "PrimaryPhoneNumber": "7779998888",
     "SecondaryPhoneNumber": null,
     "CityId": "72921b7d-8a4b-498f-8be0-163e1bb85064",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
@@ -40,12 +40,12 @@
     "BusinessTypeId": "0712dfec-b2a1-4f41-b4d8-b839ab5a87d9",
     "BusinessDescription": "Venta de gomas, alineamiento y balanceo en un mismo lugar.",
     "PrimaryPhoneNumber": "7879873412",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": null,
     "CityId": "9bb320bf-0c54-4ff5-af5d-7c12fe27b57e",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
-    "InFacebookAs": null,
-    "InInstagramAs": true,
+    "InFacebookAs": "Tu Gomera Llera",
+    "InInstagramAs": "@gomerallera",
     "HasDelivery": false,
     "HasCarryOut": false,
     "HasAthMovil": true,
@@ -66,7 +66,7 @@
       "Saturday": true,
       "SaturdayHours": "11:00AM - 2:00pm",
       "Sunday": false,
-      "SundayHours": ""
+      "SundayHours": null
     }
   },
   {
@@ -75,12 +75,12 @@
     "BusinessTypeId": "1bac085c-047b-4ea4-ad9a-9d15fb618480",
     "BusinessDescription": "Comida italiana y mas.",
     "PrimaryPhoneNumber": "7872874444",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": null,
     "CityId": "3dc46a37-60b9-456a-9c39-ac362936f37c",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
-    "InFacebookAs": true,
-    "InInstagramAs": true,
+    "InFacebookAs": "El Arcoiris Rest",
+    "InInstagramAs": "@restaurantearcoiris",
     "HasDelivery": false,
     "HasCarryOut": true,
     "HasAthMovil": false,
@@ -89,11 +89,11 @@
     "InUva": false,
     "BusinessDaysAndHours": {
       "Monday": false,
-      "MondayHours": "",
+      "MondayHours": null,
       "Tuesday": false,
-      "TuesdayHours": "",
+      "TuesdayHours": null,
       "Wednesday": false,
-      "WednesdayHours": "",
+      "WednesdayHours": null,
       "Thursday": true,
       "ThursdayHours": "11:00AM - 12:00pm",
       "Friday": true,
@@ -110,14 +110,14 @@
     "BusinessTypeId": "55dea5ad-a207-4888-80f3-687d60dfcb42",
     "BusinessDescription": "Sala de emergencias, dialisis y oficinas medicas a toda hora.",
     "PrimaryPhoneNumber": "7877775544",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": "16667773344",
     "CityId": "77c021b8-8b16-4245-bbfc-c758ea261376",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
     "InFacebookAs": null,
     "InInstagramAs": null,
     "HasDelivery": false,
-    "HasCarryOut": null,
+    "HasCarryOut": false,
     "HasAthMovil": true,
     "InUberEats": false,
     "InDameUnBite": false,
@@ -145,7 +145,7 @@
     "BusinessTypeId": "b32d8fd4-a1be-4cbd-b4a1-649370a3a185",
     "BusinessDescription": "Hospital las 24 horas los 7 días de la semana",
     "PrimaryPhoneNumber": "7877387654",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": null,
     "CityId": "69516dbc-1a63-4be7-908d-6ec66204b5ce",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
@@ -180,15 +180,15 @@
     "BusinessTypeId": "7d6117cd-6273-4840-bcec-850147abe4f6",
     "BusinessDescription": "Frituras, repostería y cafe del patio.",
     "PrimaryPhoneNumber": "8887777666",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": null,
     "CityId": "f6b47559-d5ad-4037-a2aa-132d2807e260",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
-    "InFacebookAs": null,
+    "InFacebookAs": "Cafetería Guzmán",
     "InInstagramAs": null,
     "HasDelivery": false,
-    "HasCarryOut": false,
-    "HasAthMovil": false,
+    "HasCarryOut": true,
+    "HasAthMovil": true,
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
@@ -211,19 +211,19 @@
   },
   {
     "BusinessId": "b59aea3a-d635-487f-9c31-26e6b6c9b4c6",
-    "BusinessName": "Farmacia Vazquez",
+    "BusinessName": "Farmacia Vázquez",
     "BusinessTypeId": "98c4a92e-6bfd-4716-bf59-528831de665c",
     "BusinessDescription": "Encuentra todos los medicamentos que nececitas.",
     "PrimaryPhoneNumber": "9998888777",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": "9998887776",
     "CityId": "667ccf4a-311c-4948-af3a-6c0882de4b41",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
     "InFacebookAs": null,
-    "InInstagramAs": null,
+    "InInstagramAs": "@farmaciavazquez",
     "HasDelivery": false,
     "HasCarryOut": false,
-    "HasAthMovil": false,
+    "HasAthMovil": true,
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
@@ -250,11 +250,11 @@
     "BusinessTypeId": "65a2268d-c4fc-4cfb-ad0d-faa5762c8d4c",
     "BusinessDescription": "Alimentos, carnes y artículos de primera necesidad.",
     "PrimaryPhoneNumber": "1234524323",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": null,
     "CityId": "75c6365b-882e-43b3-a005-017b21e35f82",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
-    "InFacebookAs": true,
+    "InFacebookAs": null,
     "InInstagramAs": null,
     "HasDelivery": false,
     "HasCarryOut": false,
@@ -285,7 +285,7 @@
     "BusinessTypeId": "9d37596f-90f2-4943-8cdd-df00584e55bb",
     "BusinessDescription": "Industria Farmaceutica local.",
     "PrimaryPhoneNumber": "1234556666",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": null,
     "CityId": "da88bb34-e1b3-4c04-813f-ca11b6450cc8",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
@@ -309,9 +309,9 @@
       "Friday": true,
       "FridayHours": "7:00AM - 5:00pm",
       "Saturday": false,
-      "SaturdayHours": "",
+      "SaturdayHours": null,
       "Sunday": false,
-      "SundayHours": ""
+      "SundayHours": null
     }
   },
   {
@@ -320,7 +320,7 @@
     "BusinessTypeId": "dc2fd4e1-9f1e-47b4-943d-74af8fb94c18",
     "BusinessDescription": "Venta de gasolina y diesel.",
     "PrimaryPhoneNumber": "7765544322",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": null,
     "CityId": "fe754a34-eb46-4d76-958b-0bf08a7dd315",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
@@ -359,8 +359,8 @@
     "CityId": "8b34ef59-3248-4e98-969d-5ffaa578f3de",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
-    "InFacebookAs": true,
-    "InInstagramAs": true,
+    "InFacebookAs": null,
+    "InInstagramAs": null,
     "HasDelivery": false,
     "HasCarryOut": false,
     "HasAthMovil": false,
@@ -390,7 +390,7 @@
     "BusinessTypeId": "dc2fd4e1-9f1e-47b4-943d-74af8fb94c18",
     "BusinessDescription": "Gasolinera y game stop.",
     "PrimaryPhoneNumber": "8887771234",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": null,
     "CityId": "03020494-412d-4818-ad73-c0aa70898b9d",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
@@ -460,7 +460,7 @@
     "BusinessTypeId": "dc2fd4e1-9f1e-47b4-943d-74af8fb94c18",
     "BusinessDescription": "Gasolinera y mini market.",
     "PrimaryPhoneNumber": "9983653734",
-    "SecondaryPhoneNumber": "",
+    "SecondaryPhoneNumber": null,
     "CityId": "a24d4e40-6666-40e5-b58a-818288d710b8",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
@@ -491,16 +491,16 @@
   },
   {
     "BusinessId": "4abceddc-1ed5-4daa-99bf-345193dcec82",
-    "BusinessName": "Farmacias El Amal",
+    "BusinessName": "Farmacias El Amal - Hatillo",
     "BusinessTypeId": "98c4a92e-6bfd-4716-bf59-528831de665c",
     "BusinessDescription": "De todo para tu salud.",
-    "PrimaryPhoneNumber": "1234567890",
+    "PrimaryPhoneNumber": "17878887788",
     "SecondaryPhoneNumber": "1234567898",
     "CityId": "a721789a-307c-4bb6-b7c2-c4f8791ed3ae",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
-    "InFacebookAs": true,
-    "InInstagramAs": true,
+    "InFacebookAs": "Farmacias El Amal Hatillo",
+    "InInstagramAs": "@elamalhatillo",
     "HasDelivery": false,
     "HasCarryOut": false,
     "HasAthMovil": false,
@@ -526,7 +526,7 @@
   },
   {
     "BusinessId": "35d50b03-f832-41de-bec8-f2ba9878f3d5",
-    "BusinessName": "Me Salvé Farmacy",
+    "BusinessName": "Me Salvé Pharmacy",
     "BusinessTypeId": "98c4a92e-6bfd-4716-bf59-528831de665c",
     "BusinessDescription": "Farmacia los 7 días las 24 horas.",
     "PrimaryPhoneNumber": "2422422424",
@@ -626,7 +626,7 @@
       "Saturday": true,
       "SaturdayHours": "11:00AM - 2:00pm",
       "Sunday": false,
-      "SundayHours": ""
+      "SundayHours": null
     }
   },
   {
@@ -661,7 +661,7 @@
       "Saturday": true,
       "SaturdayHours": "11:00AM - 2:00pm",
       "Sunday": false,
-      "SundayHours": ""
+      "SundayHours": null
     }
   },
   {
@@ -696,7 +696,7 @@
       "Saturday": true,
       "SaturdayHours": "11:00AM - 2:00pm",
       "Sunday": false,
-      "SundayHours": ""
+      "SundayHours": false
     }
   },
   {
@@ -709,7 +709,7 @@
     "CityId": "356284a5-9ead-466a-8e7d-c39b34c16926",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
-    "InFacebookAs": true,
+    "InFacebookAs": "Banco La Isla",
     "InInstagramAs": null,
     "HasDelivery": false,
     "HasCarryOut": false,
@@ -731,7 +731,7 @@
       "Saturday": true,
       "SaturdayHours": "11:00AM - 2:00pm",
       "Sunday": false,
-      "SundayHours": ""
+      "SundayHours": null
     }
   },
   {
@@ -766,7 +766,7 @@
       "Saturday": true,
       "SaturdayHours": "10:00AM - 5:00AM",
       "Sunday": false,
-      "SundayHours": ""
+      "SundayHours": null
     }
   },
   {
@@ -774,8 +774,8 @@
     "BusinessName": "Island Hasta Allá",
     "BusinessTypeId": "e78d7ed4-88bf-4467-89da-5d1fcb22167f",
     "BusinessDescription": "Donde te prestamos dinero y el interés es el número de tu edad.",
-    "PrimaryPhoneNumber": "",
-    "SecondaryPhoneNumber": "",
+    "PrimaryPhoneNumber": "9997778888",
+    "SecondaryPhoneNumber": "9993332211",
     "CityId": "52cbb1e1-8182-4faf-be62-b8d945e3f3ff",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
     "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
@@ -799,9 +799,9 @@
       "Friday": true,
       "FridayHours": "8:00AM - 5:30AM",
       "Saturday": false,
-      "SaturdayHours": "",
+      "SaturdayHours": null,
       "Sunday": false,
-      "SundayHours": ""
+      "SundayHours": null
     }
   }
 ]
