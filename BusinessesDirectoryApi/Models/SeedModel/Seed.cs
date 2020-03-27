@@ -1,12 +1,12 @@
-using System.Collections.Generic;
 using System.Linq;
-using BusinessesDirectoryApi.Helpers;
-using BusinessesDirectoryApi.Models.AdministrationModels;
-using BusinessesDirectoryApi.Models.BusinessModels;
-using BusinessesDirectoryApi.Models.ContextModel;
-using BusinessesDirectoryApi.Models.LocationModels;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using BusinessesDirectoryApi.Helpers;
+using BusinessesDirectoryApi.Models.ContextModel;
+using BusinessesDirectoryApi.Models.BusinessModels;
+using BusinessesDirectoryApi.Models.LocationModels;
+using BusinessesDirectoryApi.Models.AdministrationModels;
 
 namespace BusinessesDirectoryApi.Models.SeedModel
 {
@@ -34,7 +34,9 @@ namespace BusinessesDirectoryApi.Models.SeedModel
     {
       var set = _context.Set<T>();
       if (!set.Any())
+      {
         set.AddRange(data);
+      }
     }
     private void SeedLocations()
     {
