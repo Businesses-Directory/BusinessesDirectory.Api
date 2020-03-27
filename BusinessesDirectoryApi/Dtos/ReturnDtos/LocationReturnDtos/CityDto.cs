@@ -7,6 +7,7 @@ namespace BusinessesDirectoryApi.Dtos.ReturnDtos.LocationReturnDtos
     public Guid CityId { get; set; }
     public Guid StateId { get; set; }
     public Guid CountryId { get; set; }
-    public string CityName { get; set; }
+    public string Name { get; set; }
+    public string NormalizedName { get; set; }
   }
 }

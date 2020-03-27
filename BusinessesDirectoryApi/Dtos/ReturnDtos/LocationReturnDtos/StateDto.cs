@@ -6,6 +6,7 @@ namespace BusinessesDirectoryApi.Dtos.ReturnDtos.LocationReturnDtos
   {
     public Guid StateId { get; set; }
     public Guid CountryId { get; set; }
-    public string StateName { get; set; }
+    public string Name { get; set; }
+    public string NomalizedName { get; set; }
   }
 }

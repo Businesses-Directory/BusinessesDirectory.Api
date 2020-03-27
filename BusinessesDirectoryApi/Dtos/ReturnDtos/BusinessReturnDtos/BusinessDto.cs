@@ -1,4 +1,6 @@
 using System;
+using BusinessesDirectoryApi.Dtos.ReturnDtos.LocationReturnDtos;
+using BusinessesDirectoryApi.Dtos.ReturnDtos.TypesReturnDtos;
 
 namespace BusinessesDirectoryApi.Dtos.ReturnDtos.BusinessReturnDtos
 {
@@ -6,12 +8,12 @@ namespace BusinessesDirectoryApi.Dtos.ReturnDtos.BusinessReturnDtos
   {
     public Guid BusinessId { get; set; }
     public string BusinessName { get; set; }
-    public string BusinessTypeName { get; set; }
+    public BusinessTypeDto BusinessType { get; set; }
     public string BusinessDescription { get; set; }
     public string PrimaryPhoneNumber { get; set; }
     public string SecondaryPhoneNumber { get; set; }
     public BusinessHoursDto BusinessDaysAndHours { get; set; }
-    public string CityName { get; set; }
+    public CityDto City { get; set; }
     public string InFacebookAs { get; set; }
     public string InInstagramAs { get; set; }
     public bool HasDelivery { get; set; }
