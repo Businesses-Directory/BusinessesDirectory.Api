@@ -1,4 +1,5 @@
 using AutoMapper;
+using BusinessesDirectoryApi.Dtos.CreateDtos.BusinessDtos;
 using BusinessesDirectoryApi.Dtos.ReturnDtos.BusinessReturnDtos;
 using BusinessesDirectoryApi.Dtos.ReturnDtos.LocationReturnDtos;
 using BusinessesDirectoryApi.Dtos.ReturnDtos.TypesReturnDtos;
@@ -30,6 +31,8 @@ namespace BusinessesDirectoryApi.Helpers
         .ForMember(dest => dest.BusinessDaysAndHours, opts => opts.MapFrom(src => src.BusinessDaysAndHours))
         .ForMember(dest => dest.BusinessType, opts => opts.MapFrom(src => src.BusinessType))
         .ForMember(dest => dest.City, opts => opts.MapFrom(src => src.City));
+      CreateMap<BusinessHoursToCreateDto,BusinessHours>();
+      CreateMap<BusinessToCreateDto,Business>();
     }
   }
 }
