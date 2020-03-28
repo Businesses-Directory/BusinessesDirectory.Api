@@ -23,7 +23,7 @@ namespace BusinessesDirectoryApi
         try
         {
             var context = services.GetRequiredService<BusinessesDirectoryContext>();
-            context.Database.EnsureCreated();
+           // context.Database.EnsureCreated();
         }
         catch (Exception ex)
         {

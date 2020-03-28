@@ -1,3 +1,4 @@
+using System;
 using AutoMapper;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,7 +8,6 @@ using BusinessesDirectoryApi.Dtos.ParamsDtos;
 using BusinessesDirectoryApi.Models.ContextModel;
 using BusinessesDirectoryApi.Models.BusinessModels;
 using BusinessesDirectoryApi.Dtos.ReturnDtos.BusinessReturnDtos;
-using System;
 
 namespace BusinessesDirectoryApi.Repositories
 {
@@ -23,7 +23,8 @@ namespace BusinessesDirectoryApi.Repositories
     public async Task<BusinessDto> AddABusiness(Business businessToCreate)
     {
       await _context.AddAsync(businessToCreate);
-      return new BusinessDto();
+      await _context.SaveChangesAsync();
+      return _mapper.Map<BusinessDto>(businessToCreate);
     }
     public async Task<ICollection<BusinessDto>> FindBusinesses(BusinessSearchParams businessSearchParams)
     {
@@ -56,27 +57,6 @@ namespace BusinessesDirectoryApi.Repositories
       }
       var businessesToReturn = await businesses.ToListAsync();
       return _mapper.Map<ICollection<BusinessDto>>(businessesToReturn);
-      // var businessesDto = await businesses.Select(b => new BusinessDto {
-      //   BusinessId = b.BusinessId,
-      //   BusinessName = b.BusinessName,
-      //   BusinessType = b.BusinessType,
-      //   BusinessDescription = b.BusinessDescription,
-      //   PrimaryPhoneNumber = b.PrimaryPhoneNumber,
-      //   SecondaryPhoneNumber = b.SecondaryPhoneNumber,
-      //   BusinessDaysAndHours = new BusinessHoursDto(b.BusinessDaysAndHours),
-      //   City = b.City,
-      //   InFacebookAs = b.InFacebookAs,
-      //   InInstagramAs = b.InInstagramAs,
-      //   HasDelivery = b.HasDelivery,
-      //   HasCarryOut = b.HasCarryOut,
-      //   HasAthMovil = b.HasAthMovil,
-      //   InUberEats = b.InUberEats,
-      //   InDameUnBite = b.InDameUnBite,
-      //   InUva = b.InUva,
-      // }).ToListAsync();
-      // return businessesDto;
-      // var businessesToReturn = await businessesDto.ToListAsync();
-      // return _mapper.Map<ICollection<BusinessDto>>(businessesToReturn);
     }
   }
 }
