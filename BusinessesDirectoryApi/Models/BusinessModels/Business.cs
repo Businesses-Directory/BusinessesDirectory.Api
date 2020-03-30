@@ -35,6 +35,7 @@ namespace BusinessesDirectoryApi.Models.BusinessModels
     public bool InUberEats { get; set; }
     public bool InDameUnBite { get; set; }
     public bool InUva { get; set; }
+    public bool IsOperational { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime? ModifiedAt { get; set; }
     // Table Relationships

@@ -17,6 +17,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "5:00AM - 3:00pm",
@@ -52,6 +53,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -87,6 +89,7 @@
     "InUberEats": true,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": false,
       "MondayHours": null,
@@ -122,6 +125,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -157,6 +161,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -192,6 +197,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "6:00AM - 12:00pm",
@@ -227,6 +233,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "6:00AM - 10:00pm",
@@ -262,6 +269,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "7:00AM - 10:00pm",
@@ -297,6 +305,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "7:00AM - 5:00pm",
@@ -332,6 +341,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -367,6 +377,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -402,6 +413,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -437,6 +449,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -472,6 +485,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -507,6 +521,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "6:00AM - 10:00pm",
@@ -542,6 +557,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "6:00AM - 10:00pm",
@@ -577,6 +593,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "6:00AM - 10:00pm",
@@ -612,6 +629,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -647,6 +665,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -682,6 +701,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -717,6 +737,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -752,6 +773,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:30AM",
@@ -787,6 +809,7 @@
     "InUberEats": false,
     "InDameUnBite": false,
     "InUva": false,
+    "IsOperational": true,
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:30AM",

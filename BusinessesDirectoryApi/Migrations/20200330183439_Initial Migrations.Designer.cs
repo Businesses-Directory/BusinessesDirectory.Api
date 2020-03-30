@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BusinessesDirectoryApi.Migrations
 {
     [DbContext(typeof(BusinessesDirectoryContext))]
-    [Migration("20200327225523_Initial Migrations")]
+    [Migration("20200330183439_Initial Migrations")]
     partial class InitialMigrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -103,6 +103,8 @@ namespace BusinessesDirectoryApi.Migrations
                     b.Property<bool>("InUberEats");
 
                     b.Property<bool>("InUva");
+
+                    b.Property<bool>("IsOperational");
 
                     b.Property<DateTime?>("ModifiedAt");
 
