@@ -140,6 +140,7 @@ namespace BusinessesDirectoryApi.Migrations
                     InUberEats = table.Column<bool>(nullable: false),
                     InDameUnBite = table.Column<bool>(nullable: false),
                     InUva = table.Column<bool>(nullable: false),
+                    IsOperational = table.Column<bool>(nullable: false),
                     CreatedAt = table.Column<DateTime>(nullable: false),
                     ModifiedAt = table.Column<DateTime>(nullable: true)
                 },

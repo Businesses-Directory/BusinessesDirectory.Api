@@ -102,6 +102,8 @@ namespace BusinessesDirectoryApi.Migrations
 
                     b.Property<bool>("InUva");
 
+                    b.Property<bool>("IsOperational");
+
                     b.Property<DateTime?>("ModifiedAt");
 
                     b.Property<string>("PrimaryPhoneNumber")
