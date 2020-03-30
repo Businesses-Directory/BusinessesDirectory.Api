@@ -19,6 +19,8 @@ using BusinessesDirectoryApi.Models.ContextModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using BusinessesDirectoryApi.Models.SeedModel;
+using BusinessesDirectoryApi.ErrorHandling.Extensions;
+using BusinessesDirectoryApi.ErrorHandling.CustomExceptionMiddleware;
 
 namespace BusinessesDirectoryApi
 {
@@ -68,6 +70,11 @@ namespace BusinessesDirectoryApi
       services.AddScoped<ILocationService, LocationService>();
       services.AddScoped<ILocationRepository, LocationRepository>();
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+      // Configure Custom Validation Error Handling
+      services.Configure<ApiBehaviorOptions>(options =>
+      {
+        options.InvalidModelStateResponseFactory = ctx => ValidationErrorResult.GetValidationErrors(ctx);
+      });
     }
       // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
     public void Configure(IApplicationBuilder app, IHostingEnvironment env, Seed seeder)
@@ -84,6 +91,8 @@ namespace BusinessesDirectoryApi
         app.UseHsts();
         app.UseCors(allowedProductionOrigin);
       }
+
+      app.ConfigureCustomExceptionMiddleware();
       app.UseHttpsRedirection();
       app.UseMvc();
       app.UseSpa(spa => { });
