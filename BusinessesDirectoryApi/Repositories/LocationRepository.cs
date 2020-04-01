@@ -20,10 +20,20 @@ namespace BusinessesDirectoryApi.Repositories
     {
       return await _context.City.ToListAsync();
     }
-    public async Task<City> FindCity(Guid id)
+    public async Task<City> FindCityById(Guid id)
     {
       var city = await _context.City.FirstOrDefaultAsync(c => c.CityId == id);
       return city;
+    }
+    public async Task<State> FindStateById(Guid id)
+    {
+      var state = await _context.State.FirstOrDefaultAsync(s => s.StateId == id);
+      return state;
+    }
+    public async Task<Country> FindCountryById(Guid id)
+    {
+      var country = await _context.Country.FirstOrDefaultAsync(c => c.CountryId == id);
+      return country;
     }
   }
 }

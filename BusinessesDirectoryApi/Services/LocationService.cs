@@ -21,9 +21,9 @@ namespace BusinessesDirectoryApi.Services
       var cities = await _locationRepository.FindAllCities();
       return _mapper.Map<ICollection<CityDto>>(cities);
     }
-    public async Task<CityDto> FindCity(Guid id)
+    public async Task<CityDto> FindCityById(Guid id)
     {
-      var city = await _locationRepository.FindCity(id);
+      var city = await _locationRepository.FindCityById(id);
       if (city == null)
       {
         throw new Exception("The city was not found");

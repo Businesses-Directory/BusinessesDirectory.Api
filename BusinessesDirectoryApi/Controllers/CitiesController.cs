@@ -26,7 +26,7 @@ namespace BusinessesDirectoryApi.Controllers
     [HttpGet("{id}")]
     public async Task<IActionResult> GetCity([GuidValidationAttribute] string id)
     {
-      var city = await _locationService.FindCity(Guid.Parse(id));
+      var city = await _locationService.FindCityById(Guid.Parse(id));
       return Ok(city);
     }
 

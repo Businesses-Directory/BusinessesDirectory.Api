@@ -8,6 +8,8 @@ namespace BusinessesDirectoryApi.Repositories
   public interface ILocationRepository
   {
     Task<ICollection<City>> FindAllCities();
-    Task<City> FindCity(Guid id);
+    Task<City> FindCityById(Guid id);
+    Task<State> FindStateById(Guid id);
+    Task<Country> FindCountryById(Guid id);
   }
 }

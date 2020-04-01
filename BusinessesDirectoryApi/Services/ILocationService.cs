@@ -8,6 +8,6 @@ namespace BusinessesDirectoryApi.Services
   public interface ILocationService
   {
     Task<ICollection<CityDto>> FindAllCities();
-    Task<CityDto> FindCity(Guid id);
+    Task<CityDto> FindCityById(Guid id);
   }
 }
