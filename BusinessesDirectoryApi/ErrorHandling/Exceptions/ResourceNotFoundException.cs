@@ -6,11 +6,12 @@ namespace BusinessesDirectoryApi.ErrorHandling.Exceptions
 {
   public class ResourceNotFoundException : CustomException
   {
-    private string URI = "https://url/errors/resource-not-found";
+    private readonly string Uri = "https://businessdirectory.com/errors/";
+    private readonly string Type = "resource-not-found";
     public ResourceNotFoundException(HttpStatusCode statusCode, string message) : base(message)
     {
-      this.HelpLink = URI;
-      errorDetails.Type = URI;
+      this.HelpLink = String.Format("{0}{1}", Uri, Type);
+      errorDetails.Type = Type;
       errorDetails.Title = "Resource was not found";
       errorDetails.Detail = message;
       errorDetails.Status = (int) statusCode;

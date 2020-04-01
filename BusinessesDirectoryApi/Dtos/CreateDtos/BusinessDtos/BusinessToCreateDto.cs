@@ -17,10 +17,13 @@ namespace BusinessesDirectoryApi.Dtos.CreateDtos.BusinessDtos
     public string PrimaryPhoneNumber { get; set; }
     public string SecondaryPhoneNumber { get; set; }
     [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the cityd.")]
+    [Required (ErrorMessage = "The city UUID is required.")]
     public string CityId { get; set; }
     [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the stateId.")]
+    [Required (ErrorMessage = "The country UUID is required.")]
     public string StateId { get; set; }
     [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the countryId.")]
+    [Required (ErrorMessage = "The country UUID is required.")]
     public string CountryId { get; set; }
     public string InFacebookAs { get; set; }
     public string InInstagramAs { get; set; }

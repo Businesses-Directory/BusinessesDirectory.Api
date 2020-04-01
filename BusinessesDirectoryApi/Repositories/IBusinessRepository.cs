@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using BusinessesDirectoryApi.Dtos.ParamsDtos;
 using BusinessesDirectoryApi.Models.BusinessModels;
 using BusinessesDirectoryApi.Dtos.ReturnDtos.BusinessReturnDtos;
+using System;
 
 namespace BusinessesDirectoryApi.Repositories
 {
@@ -10,5 +11,7 @@ namespace BusinessesDirectoryApi.Repositories
   {
     Task<BusinessDto> AddABusiness(Business businessToCreate);
     Task<ICollection<BusinessDto>> FindBusinesses(BusinessSearchParams businessSearchParams);
+    Task<Business> FindBusinessById(Guid businessId);
+    Task<BusinessDto> FindBusinessByPhoneNumber(string phoneNumber);
   }
 }
