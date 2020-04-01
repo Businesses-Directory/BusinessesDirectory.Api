@@ -9,12 +9,14 @@ namespace BusinessesDirectoryApi.Dtos.CreateDtos.BusinessDtos
     [Required (ErrorMessage = "Please specify the business name.")]
     public string BusinessName { get; set; }
     [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the BusinessTypeId.")]
+    [Required]
     public string BusinessTypeId { get; set; }
     [Required (ErrorMessage = "The Business description must be sent")]
     public string BusinessDescription { get; set; }
     [Required (ErrorMessage = "Please enter the primary phone number.")]
     [Phone (ErrorMessage = "Please enter a valid phone number.")]
     public string PrimaryPhoneNumber { get; set; }
+    [Phone (ErrorMessage = "Please enter a valid phone number.")]
     public string SecondaryPhoneNumber { get; set; }
     [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the cityd.")]
     [Required (ErrorMessage = "The city UUID is required.")]

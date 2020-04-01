@@ -26,16 +26,41 @@ namespace BusinessesDirectoryApi.Services
       }
       public async Task<BusinessDto> AddABusiness(BusinessToCreateDto businessToCreateDto)
       {
-        var city = await _locationRepository.FindCity(Guid.Parse(businessToCreateDto.CityId));
+        var city = await _locationRepository.FindCityById(Guid.Parse(businessToCreateDto.CityId));
         if (city == null)
         {
-          throw new Exception("City not found.");
+          throw new Exception(String.Format("The city with Id: {0}, was not found.", businessToCreateDto.CityId));
+        }
+        var state = await _locationRepository.FindStateById(Guid.Parse(businessToCreateDto.StateId));
+        if (state == null)
+        {
+          throw new Exception(String.Format("The state with Id: {0}, was not found.", businessToCreateDto.StateId));
+        }
+        else if (state.StateId != city.CityId)
+        {
+          throw new Exception(String.Format("The state with Id: {0}, does not match the state linked to the city.", state.StateId));
+        }
+        var country = await _locationRepository.FindCountryById(Guid.Parse(businessToCreateDto.CountryId));
+        if (country == null)
+        {
+          throw new Exception(String.Format("The country with Id: {0}, was not found.", businessToCreateDto.CountryId));
+        }
+        if (country.CountryId != city.CountryId)
+        {
+          throw new Exception(String.Format("The country with Id: {0}, does not match the Id of the country linked to the city.",country.CountryId));
+        }
+        if (country.CountryId != state.CountryId)
+        {
+          throw new Exception(String.Format("The country with Id: {0}, does not match the Id of the country linked to the state.", country.CountryId));
         }
         var businessType = await _businessTypeRepository.FindBusinessType(Guid.Parse(businessToCreateDto.BusinessTypeId));
         if (businessType == null)
         {
           throw new Exception("Business type not found.");
         }
+        // añadir la implementación del unsafe words checker
+        // añadir location exception
+        // depurar los types por exception
         var businessToCreate = _mapper.Map<Business>(businessToCreateDto);
         return await _businessRepository.AddABusiness(businessToCreate);
       }
