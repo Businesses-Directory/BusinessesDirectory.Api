@@ -29,12 +29,12 @@ namespace BusinessesDirectoryApi.Services
         var city = await _locationRepository.FindCity(Guid.Parse(businessToCreateDto.CityId));
         if (city == null)
         {
-            throw new Exception("City not found.");
+          throw new Exception("City not found.");
         }
         var businessType = await _businessTypeRepository.FindBusinessType(Guid.Parse(businessToCreateDto.BusinessTypeId));
         if (businessType == null)
         {
-            throw new Exception("Business type not found.");
+          throw new Exception("Business type not found.");
         }
         var businessToCreate = _mapper.Map<Business>(businessToCreateDto);
         return await _businessRepository.AddABusiness(businessToCreate);

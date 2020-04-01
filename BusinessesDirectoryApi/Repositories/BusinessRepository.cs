@@ -29,6 +29,7 @@ namespace BusinessesDirectoryApi.Repositories
     public async Task<ICollection<BusinessDto>> FindBusinesses(BusinessSearchParams businessSearchParams)
     {
       var businesses = _context.Business
+        .Where(b => b.IsOperational == true)
         .Include(b => b.BusinessType)
         .Include(b => b.City)
           .ThenInclude(c => c.State)
@@ -57,6 +58,15 @@ namespace BusinessesDirectoryApi.Repositories
       }
       var businessesToReturn = await businesses.ToListAsync();
       return _mapper.Map<ICollection<BusinessDto>>(businessesToReturn);
+    }
+    public async Task<BusinessDto> FindBusinessByPhoneNumber(string phoneNumber)
+    {
+      var business = await _context.Business.FirstOrDefaultAsync(b => b.PrimaryPhoneNumber == $"%{phoneNumber}%");
+      return _mapper.Map<BusinessDto>(business);
+    }
+    public async Task<Business> FindBusinessById(Guid businessId)
+    {
+      return await _context.Business.FirstOrDefaultAsync(b => b.BusinessId == businessId);
     }
   }
 }
