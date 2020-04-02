@@ -5,66 +5,66 @@ namespace BusinessesDirectoryApi.Dtos.CreateDtos.BusinessDtos
 {
   public class BusinessHoursToCreateDto
   {
-    [Required (ErrorMessage = "Please indicate if the business operates on Mondays.")]
+    [Required (ErrorMessage = "Indique si el negocio está abierto los lunes.")]
     public bool Monday { get; set; }
     [
       OperationHoursValidationAttribute
       (
-        ErrorMessage = "The business hours entered for Monday are not in the correct format."
+        ErrorMessage = "Verifique el formato entrado en las horas de servicio para el lunes."
       )
     ]
     public string MondayHours  { get; set; }
-    [Required (ErrorMessage = "Please indicate if the business operates on Tuesdays.")]
+    [Required (ErrorMessage = "Indique si el negocio está abierto los martes.")]
     public bool Tuesday { get; set; }
     [
       OperationHoursValidationAttribute
       (
-        ErrorMessage = "The business hours entered for Tuesday are not in the correct format."
+        ErrorMessage = "Verifique el formato entrado en las horas de servicio para el martes."
       )
     ]
     public string TuesdayHours  { get; set; }
-    [Required (ErrorMessage = "Please indicate if the business operates on Wednesdays.")]
+    [Required (ErrorMessage = "Indique si el negocio está abierto los miércoles.")]
     public bool Wednesday { get; set; }
     [
       OperationHoursValidationAttribute
       (
-        ErrorMessage = "The business hours entered for Wenesday are not in the correct format."
+        ErrorMessage = "Verifique el formato entrado en las horas de servicio para el miércoles."
       )
     ]
     public string WednesdayHours { get; set; }
-    [Required (ErrorMessage = "Please indicate if the business operates on Thursdays.")]
+    [Required (ErrorMessage = "Indique si el negocio está abierto los jueves.")]
     public bool Thursday { get; set; }
     [
       OperationHoursValidationAttribute
       (
-        ErrorMessage = "The business hours entered for Thusrday are not in the correct format."
+        ErrorMessage = "Verifique el formato entrado en las horas de servicio para el jueves."
       )
     ]
     public string ThursdayHours { get; set; }
-    [Required (ErrorMessage = "Please indicate if the business operates on Fridays.")]
+    [Required (ErrorMessage = "Indique si el negocio está abierto los viernes.")]
     public bool Friday { get; set; }
     [
       OperationHoursValidationAttribute
       (
-        ErrorMessage = "The business hours entered for Friday are not in the correct format."
+        ErrorMessage = "Verifique el formato entrado en las horas de servicio para el viernes."
       )
     ]
     public string FridayHours { get; set; }
-    [Required (ErrorMessage = "Please indicate if the business operates on Saturdays.")]
+    [Required (ErrorMessage = "Indique si el negocio está abierto los sábados.")]
     public bool Saturday { get; set; }
     [
       OperationHoursValidationAttribute
       (
-        ErrorMessage = "The business hours entered for Saturday are not in the correct format."
+        ErrorMessage = "Verifique el formato entrado en las horas de servicio para el sábado."
       )
     ]
     public string SaturdayHours { get; set; }
-    [Required (ErrorMessage = "Please indicate if the business operates on Sundays.")]
+    [Required (ErrorMessage = "Indique si el negocio está abierto los domingos.")]
     public bool Sunday { get; set; }
     [
       OperationHoursValidationAttribute
       (
-        ErrorMessage = "The business hours entered for Sunday are not in the correct format."
+        ErrorMessage = "Verifique el formato entrado en las horas de servicio para el domingo."
       )
     ]
     public string SundayHours { get; set; }

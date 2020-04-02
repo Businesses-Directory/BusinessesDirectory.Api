@@ -12,6 +12,7 @@ namespace BusinessesDirectoryApi.Repositories
     Task<BusinessDto> AddABusiness(Business businessToCreate);
     Task<ICollection<BusinessDto>> FindBusinesses(BusinessSearchParams businessSearchParams);
     Task<Business> FindBusinessById(Guid businessId);
-    Task<BusinessDto> FindBusinessByPhoneNumber(string phoneNumber);
+    Task<BusinessDto> FindBusinessByPrimaryPhoneNumber(string phoneNumber);
+    Task<BusinessDto> FindBusinessBySecondaryPhoneNumber(string phoneNumber);
   }
 }

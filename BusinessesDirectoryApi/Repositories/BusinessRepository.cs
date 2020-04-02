@@ -59,7 +59,12 @@ namespace BusinessesDirectoryApi.Repositories
       var businessesToReturn = await businesses.ToListAsync();
       return _mapper.Map<ICollection<BusinessDto>>(businessesToReturn);
     }
-    public async Task<BusinessDto> FindBusinessByPhoneNumber(string phoneNumber)
+    public async Task<BusinessDto> FindBusinessByPrimaryPhoneNumber(string phoneNumber)
+    {
+      var business = await _context.Business.FirstOrDefaultAsync(b => b.PrimaryPhoneNumber == $"%{phoneNumber}%");
+      return _mapper.Map<BusinessDto>(business);
+    }
+    public async Task<BusinessDto> FindBusinessBySecondaryPhoneNumber(string phoneNumber)
     {
       var business = await _context.Business.FirstOrDefaultAsync(b => b.PrimaryPhoneNumber == $"%{phoneNumber}%");
       return _mapper.Map<BusinessDto>(business);
