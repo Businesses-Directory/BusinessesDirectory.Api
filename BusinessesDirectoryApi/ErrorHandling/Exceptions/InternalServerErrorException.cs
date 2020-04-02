@@ -6,12 +6,12 @@ namespace BusinessesDirectoryApi.ErrorHandling.Exceptions
 {
   public class InternalServerErrorException : CustomException
   {
-    private string URI = "https://businessdirectory.com/errors/internal-server-error";
+    private string Uri = "https://businessdirectory.com/errors/internal-server-error";
     private readonly string Type = "error";
     public InternalServerErrorException(HttpStatusCode statusCode, string message) : base(message)
     {
-      this.HelpLink = URI;
-      errorDetails.Type = URI;
+      this.HelpLink = Uri;
+      errorDetails.Type = Type;
       errorDetails.Title = "Internal Server Error";
       errorDetails.Detail = message;
       errorDetails.Status = (int) statusCode;

@@ -61,12 +61,12 @@ namespace BusinessesDirectoryApi.Repositories
     }
     public async Task<BusinessDto> FindBusinessByPrimaryPhoneNumber(string phoneNumber)
     {
-      var business = await _context.Business.FirstOrDefaultAsync(b => b.PrimaryPhoneNumber == $"%{phoneNumber}%");
+      var business = await _context.Business.FirstOrDefaultAsync(b => b.PrimaryPhoneNumber.Contains(phoneNumber));
       return _mapper.Map<BusinessDto>(business);
     }
     public async Task<BusinessDto> FindBusinessBySecondaryPhoneNumber(string phoneNumber)
     {
-      var business = await _context.Business.FirstOrDefaultAsync(b => b.PrimaryPhoneNumber == $"%{phoneNumber}%");
+      var business = await _context.Business.FirstOrDefaultAsync(b => b.SecondaryPhoneNumber.Contains(phoneNumber));
       return _mapper.Map<BusinessDto>(business);
     }
     public async Task<Business> FindBusinessById(Guid businessId)
