@@ -6,42 +6,42 @@ namespace BusinessesDirectoryApi.Dtos.CreateDtos.BusinessDtos
 {
   public class BusinessToCreateDto
   {
-    [Required (ErrorMessage = "Please specify the business name.")]
+    [Required (ErrorMessage = "Especifique el nombre del negocio.")]
     public string BusinessName { get; set; }
     [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the BusinessTypeId.")]
     [Required]
     public string BusinessTypeId { get; set; }
-    [Required (ErrorMessage = "The Business description must be sent")]
+    [Required (ErrorMessage = "Especifique la descripción del negocio.")]
     public string BusinessDescription { get; set; }
-    [Required (ErrorMessage = "Please enter the primary phone number.")]
-    [Phone (ErrorMessage = "Please enter a valid phone number.")]
+    [Required (ErrorMessage = "Escriba el número telefónico primario del negocio.")]
+    [Phone (ErrorMessage = "Escriba un número telefónico válido.")]
     public string PrimaryPhoneNumber { get; set; }
-    [Phone (ErrorMessage = "Please enter a valid phone number.")]
+    [Phone (ErrorMessage = "Escriba un número telefónico válido.")]
     public string SecondaryPhoneNumber { get; set; }
-    [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the cityd.")]
-    [Required (ErrorMessage = "The city UUID is required.")]
+    [GuidValidationAttribute (ErrorMessage = "El id de la ciudad no es válido, utilice un UUIDV4.")]
+    [Required (ErrorMessage = "El id de la ciudad es requerido.")]
     public string CityId { get; set; }
-    [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the stateId.")]
-    [Required (ErrorMessage = "The country UUID is required.")]
+    [GuidValidationAttribute (ErrorMessage = "El id del estado no es válido, utilice un UUIDV4.")]
+    [Required (ErrorMessage = "El id del estado es requerido.")]
     public string StateId { get; set; }
-    [GuidValidationAttribute (ErrorMessage = "Please use a valid GUID/UUIDV4 for the countryId.")]
-    [Required (ErrorMessage = "The country UUID is required.")]
+    [GuidValidationAttribute (ErrorMessage = "El id del país no es válido, utilice un UUIDV4.")]
+    [Required (ErrorMessage = "El Id del país es requerido.")]
     public string CountryId { get; set; }
     public string InFacebookAs { get; set; }
     public string InInstagramAs { get; set; }
-    [Required (ErrorMessage = "Please indicate if your business has delivery service.")]
+    [Required (ErrorMessage = "Indique si el negocio tiene servicio de delivery.")]
     public bool HasDelivery { get; set; }
-    [Required (ErrorMessage = "Please indicate if your business has carry-out service.")]
+    [Required (ErrorMessage = "Indique si el negocio tiene servicio de recogido de órden (carry-out).")]
     public bool HasCarryOut { get; set; }
-    [Required (ErrorMessage = "Please indicate if the customers can pay with ATHMovil service.")]
+    [Required (ErrorMessage = "Indique si el negocio tiene servicio de ATH móvil.")]
     public bool HasAthMovil { get; set; }
-    [Required]
+    [Required (ErrorMessage = "Indique si el negocio se encuentra en Uber Eats.")]
     public bool InUberEats { get; set; }
-    [Required]
+    [Required (ErrorMessage = "Indique si el negocio se encuentra en Dame un Bite.")]
     public bool InDameUnBite { get; set; }
-    [Required]
+    [Required (ErrorMessage = "Indique si el negocio se encuentra en Uva.")]
     public bool InUva { get; set; }
-    [Required (ErrorMessage = "Please send the business hours.")]
+    [Required (ErrorMessage = "Indique el itinerario del negocio.")]
     public BusinessHoursToCreateDto BusinessDaysAndHours { get; set; }
   }
 }
