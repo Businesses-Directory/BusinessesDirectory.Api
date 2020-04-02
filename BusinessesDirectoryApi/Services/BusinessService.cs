@@ -116,6 +116,30 @@ namespace BusinessesDirectoryApi.Services
         {
           throw new Exception("Business type not found.");
         }
+        var businessByPrimaryA = await _businessRepository.FindBusinessByPrimaryPhoneNumber(businessToCreateDto.PrimaryPhoneNumber);
+        if (businessByPrimaryA != null)
+        {
+          throw new BusinessExistException(HttpStatusCode.BadRequest, String.Format("El negocio {0} tiene ese número telefónico, como teléfono primario.", businessByPrimaryA.BusinessName));
+        }
+        var businessByPrimaryB = await _businessRepository.FindBusinessBySecondaryPhoneNumber(businessToCreateDto.PrimaryPhoneNumber);
+        if (businessByPrimaryB != null)
+        {
+          throw new BusinessExistException(HttpStatusCode.BadRequest, String.Format("El negocio {0} tiene ese número telefónico, como teléfono secundario.", businessByPrimaryB.BusinessName));
+        }
+        if (businessToCreateDto.SecondaryPhoneNumber != null)
+        {
+          var businessBySecondaryA = await _businessRepository.FindBusinessByPrimaryPhoneNumber(businessToCreateDto.SecondaryPhoneNumber);
+          if (businessBySecondaryA != null)
+          {
+            throw new BusinessExistException(HttpStatusCode.BadRequest, String.Format("El negocio {0} tiene ese número telefónico, como teléfono primario.", businessByPrimaryB.BusinessName));
+          }
+          var businessBySecondaryB = await _businessRepository.FindBusinessBySecondaryPhoneNumber(businessToCreateDto.SecondaryPhoneNumber);
+          if (businessBySecondaryB != null)
+          {
+            throw new BusinessExistException(HttpStatusCode.BadRequest, String.Format("El negocio {0} tiene ese número telefónico, como teléfono secundario.", businessByPrimaryB.BusinessName));
+          }
+        }
+
         // añadir la implementación del unsafe words checker
         // añadir location exception
         // depurar los types por exception
