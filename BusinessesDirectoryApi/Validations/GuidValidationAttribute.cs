@@ -12,13 +12,19 @@ namespace BusinessesDirectoryApi.Validations
       {
         Array values;
         if (value is Array)
-        values = value as Array;
+        {
+          values = value as Array;
+        }
         else
-        values = new object[] { value };
+        {
+          values = new object[] { value };
+        }
         foreach (var item in values)
         {
-        if (!isValidGuid(item))
-          return new ValidationResult(ErrorMessage ?? DefaultErrorMessage);
+          if (!isValidGuid(item))
+          {
+            return new ValidationResult(ErrorMessage ?? DefaultErrorMessage);
+          }
         }
       }
       return ValidationResult.Success;
