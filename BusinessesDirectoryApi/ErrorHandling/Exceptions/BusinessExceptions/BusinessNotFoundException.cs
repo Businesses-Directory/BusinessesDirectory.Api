@@ -6,7 +6,7 @@ namespace BusinessesDirectoryApi.ErrorHandling.Exceptions.BusinessExceptions
 {
   public class BusinessNotFoundException : CustomException
   {
-    private readonly string Uri = "https://businessdirectory.com/errors/business-not-found";
+    private readonly string Uri = "https://businessdirectory.com/errors/business-not-found-exception";
     private readonly string Type = "error";
     public BusinessNotFoundException(HttpStatusCode statusCode, string message) : base(message)
     {
