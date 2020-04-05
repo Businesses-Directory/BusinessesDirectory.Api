@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using BusinessesDirectoryApi.Models.ContextModel;
 using BusinessesDirectoryApi.Models.LocationModels;
 using BusinessesDirectoryApi.Dtos.ReturnDtos.LocationReturnDtos;
+using System.Linq;
 
 namespace BusinessesDirectoryApi.Repositories
 {
@@ -18,7 +19,9 @@ namespace BusinessesDirectoryApi.Repositories
     }
     public async Task<ICollection<City>> FindAllCities()
     {
-      return await _context.City.ToListAsync();
+      return await _context.City
+        .OrderBy(c => c.CityNormalizedName)
+        .ToListAsync();
     }
     public async Task<City> FindCityById(Guid id)
     {

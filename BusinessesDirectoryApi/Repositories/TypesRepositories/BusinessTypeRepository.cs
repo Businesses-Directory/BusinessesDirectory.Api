@@ -17,7 +17,9 @@ namespace BusinessesDirectoryApi.Repositories.TypesRepositories
     }
     public async Task<ICollection<BusinessType>> FindBusinessTypes()
     {
-      return await _context.BusinessType.OrderByDescending(bt => bt.BusinessTypeNormalizedName).ToListAsync();
+      return await _context.BusinessType
+        .OrderBy(bt => bt.BusinessTypeNormalizedName)
+        .ToListAsync();
     }
     public async Task<BusinessType> FindBusinessType(Guid id)
     {
