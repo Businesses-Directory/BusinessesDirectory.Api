@@ -14,5 +14,6 @@ namespace BusinessesDirectoryApi.Repositories
     Task<Business> FindBusinessById(Guid businessId);
     Task<BusinessDto> FindBusinessByPrimaryPhoneNumber(string phoneNumber);
     Task<BusinessDto> FindBusinessBySecondaryPhoneNumber(string phoneNumber);
-  }
+    Task<Business> FindBusinessByEmail(string businessEmail);
+    }
 }

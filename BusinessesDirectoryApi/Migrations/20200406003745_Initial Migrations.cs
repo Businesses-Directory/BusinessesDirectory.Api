@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace BusinessesDirectoryApi.Migrations
+namespace BusinessesDirectoriesApi.Migrations
 {
     public partial class InitialMigrations : Migration
     {
@@ -125,6 +125,7 @@ namespace BusinessesDirectoryApi.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     BusinessName = table.Column<string>(maxLength: 300, nullable: false),
                     BusinessTypeId = table.Column<Guid>(nullable: false),
+                    BusinessEmail = table.Column<string>(maxLength: 100, nullable: false),
                     BusinessDescription = table.Column<string>(maxLength: 600, nullable: false),
                     PrimaryPhoneNumber = table.Column<string>(maxLength: 20, nullable: false),
                     SecondaryPhoneNumber = table.Column<string>(maxLength: 20, nullable: true),
@@ -132,8 +133,8 @@ namespace BusinessesDirectoryApi.Migrations
                     CityId = table.Column<Guid>(nullable: false),
                     StateId = table.Column<Guid>(nullable: false),
                     CountryId = table.Column<Guid>(nullable: false),
-                    InFacebookAs = table.Column<string>(nullable: true),
-                    InInstagramAs = table.Column<string>(nullable: true),
+                    InFacebookAs = table.Column<string>(maxLength: 100, nullable: true),
+                    InInstagramAs = table.Column<string>(maxLength: 100, nullable: true),
                     HasDelivery = table.Column<bool>(nullable: false),
                     HasCarryOut = table.Column<bool>(nullable: false),
                     HasAthMovil = table.Column<bool>(nullable: false),

@@ -41,6 +41,7 @@ namespace BusinessesDirectoryApi.Repositories
         businesses = businesses.Where(btf =>
           EF.Functions.Like(btf.BusinessName.ToString(), $"%{businessSearchParams.Search}%") ||
           EF.Functions.Like(btf.BusinessDescription.ToString(), $"%{businessSearchParams.Search}%") ||
+          EF.Functions.Like(btf.BusinessEmail.ToString(), $"%{businessSearchParams.Search}%") ||
           EF.Functions.Like(btf.PrimaryPhoneNumber.ToString(), $"%{businessSearchParams.Search}%")
         );
       }
@@ -73,5 +74,10 @@ namespace BusinessesDirectoryApi.Repositories
     {
       return await _context.Business.FirstOrDefaultAsync(b => b.BusinessId == businessId);
     }
+    public async Task<Business> FindBusinessByEmail(string businessEmail)
+    {
+      return await _context.Business.FirstOrDefaultAsync(b => b.BusinessEmail == businessEmail);
+    }
+        
   }
 }

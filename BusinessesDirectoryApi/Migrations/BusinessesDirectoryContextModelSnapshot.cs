@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace BusinessesDirectoryApi.Migrations
+namespace BusinessesDirectoriesApi.Migrations
 {
     [DbContext(typeof(BusinessesDirectoryContext))]
     partial class BusinessesDirectoryContextModelSnapshot : ModelSnapshot
@@ -70,6 +70,10 @@ namespace BusinessesDirectoryApi.Migrations
                         .IsRequired()
                         .HasMaxLength(600);
 
+                    b.Property<string>("BusinessEmail")
+                        .IsRequired()
+                        .HasMaxLength(100);
+
                     b.Property<string>("BusinessName")
                         .IsRequired()
                         .HasMaxLength(300);
@@ -94,9 +98,11 @@ namespace BusinessesDirectoryApi.Migrations
 
                     b.Property<bool>("InDameUnBite");
 
-                    b.Property<string>("InFacebookAs");
+                    b.Property<string>("InFacebookAs")
+                        .HasMaxLength(100);
 
-                    b.Property<string>("InInstagramAs");
+                    b.Property<string>("InInstagramAs")
+                        .HasMaxLength(100);
 
                     b.Property<bool>("InUberEats");
 

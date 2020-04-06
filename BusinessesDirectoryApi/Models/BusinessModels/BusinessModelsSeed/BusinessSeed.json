@@ -18,6 +18,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"cafeteriapapos@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "5:00AM - 3:00pm",
@@ -54,6 +55,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"gomerallera@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -90,6 +92,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"elarco@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": false,
       "MondayHours": null,
@@ -126,6 +129,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"acdmedicalcentre@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -162,6 +166,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"hmenonita@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -198,6 +203,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"cafeguzman@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "6:00AM - 12:00pm",
@@ -220,6 +226,7 @@
     "BusinessName": "Farmacia Vázquez",
     "BusinessTypeId": "98c4a92e-6bfd-4716-bf59-528831de665c",
     "BusinessDescription": "Encuentra todos los medicamentos que nececitas.",
+    "BusinessEmail":"farmaciavazquez@negocios.com",
     "PrimaryPhoneNumber": "9998888777",
     "SecondaryPhoneNumber": "9998887776",
     "CityId": "667ccf4a-311c-4948-af3a-6c0882de4b41",
@@ -270,6 +277,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"caribe@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "7:00AM - 10:00pm",
@@ -306,6 +314,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"bdb@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "7:00AM - 5:00pm",
@@ -342,6 +351,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"shell@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -378,6 +388,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"texaco@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -414,6 +425,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"petrogalactica@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -450,6 +462,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"epp@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -486,6 +499,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"puma@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "12:00AM - 12:00AM",
@@ -522,6 +536,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"elamal@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "6:00AM - 10:00pm",
@@ -558,6 +573,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"mspharma@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "6:00AM - 10:00pm",
@@ -594,6 +610,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"walgreens@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "6:00AM - 10:00pm",
@@ -630,6 +647,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"bppr@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -666,6 +684,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"doral@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -702,6 +721,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"sb@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -738,6 +758,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"laislabppr@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:00pm",
@@ -774,6 +795,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail":"estasviejo@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:30AM",
@@ -800,7 +822,7 @@
     "SecondaryPhoneNumber": "9993332211",
     "CityId": "52cbb1e1-8182-4faf-be62-b8d945e3f3ff",
     "StateId": "b76b0d30-5f32-4e81-a895-6a217f4d77b3",
-    "CountryId":"080331c1-1644-496c-ac41-f1409a24e91c",
+    "CountryId": "080331c1-1644-496c-ac41-f1409a24e91c",
     "InFacebookAs": null,
     "InInstagramAs": null,
     "HasDelivery": false,
@@ -810,6 +832,7 @@
     "InDameUnBite": false,
     "InUva": false,
     "IsOperational": true,
+    "BusinessEmail": "hastaalla@negocios.com",
     "BusinessDaysAndHours": {
       "Monday": true,
       "MondayHours": "8:00AM - 5:30AM",

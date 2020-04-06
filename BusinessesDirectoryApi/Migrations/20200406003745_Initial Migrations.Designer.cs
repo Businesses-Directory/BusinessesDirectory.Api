@@ -7,10 +7,10 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace BusinessesDirectoryApi.Migrations
+namespace BusinessesDirectoriesApi.Migrations
 {
     [DbContext(typeof(BusinessesDirectoryContext))]
-    [Migration("20200330183439_Initial Migrations")]
+    [Migration("20200406003745_Initial Migrations")]
     partial class InitialMigrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -72,6 +72,10 @@ namespace BusinessesDirectoryApi.Migrations
                         .IsRequired()
                         .HasMaxLength(600);
 
+                    b.Property<string>("BusinessEmail")
+                        .IsRequired()
+                        .HasMaxLength(100);
+
                     b.Property<string>("BusinessName")
                         .IsRequired()
                         .HasMaxLength(300);
@@ -96,9 +100,11 @@ namespace BusinessesDirectoryApi.Migrations
 
                     b.Property<bool>("InDameUnBite");
 
-                    b.Property<string>("InFacebookAs");
+                    b.Property<string>("InFacebookAs")
+                        .HasMaxLength(100);
 
-                    b.Property<string>("InInstagramAs");
+                    b.Property<string>("InInstagramAs")
+                        .HasMaxLength(100);
 
                     b.Property<bool>("InUberEats");
 

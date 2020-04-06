@@ -16,6 +16,7 @@ namespace BusinessesDirectoryApi.Models.BusinessModels
     // Business details
     public string BusinessName { get; set; }
     public Guid BusinessTypeId { get; set; }
+    public string BusinessEmail { get; set; }
     public string BusinessDescription { get; set; }
     public string PrimaryPhoneNumber { get; set; }
     public string SecondaryPhoneNumber { get; set; }
@@ -69,6 +70,10 @@ namespace BusinessesDirectoryApi.Models.BusinessModels
         .IsRequired()
         .HasMaxLength(300);
 
+      entity.Property(e => e.BusinessEmail)
+        .IsRequired()
+        .HasMaxLength(100);
+
       entity.HasIndex(e => e.BusinessTypeId)
         .HasName("BusinessTypeId_To_BusinessTable_FK");
 
@@ -83,7 +88,14 @@ namespace BusinessesDirectoryApi.Models.BusinessModels
       entity.Property(e => e.SecondaryPhoneNumber)
         .HasMaxLength(20);
 
-      entity.HasIndex(e => new { e.CityId, e.StateId, e.CountryId })
+      entity.Property(e => e.InInstagramAs)
+        .HasMaxLength(100);
+
+      entity.Property(e => e.InFacebookAs)
+        .HasMaxLength(100);
+
+
+            entity.HasIndex(e => new { e.CityId, e.StateId, e.CountryId })
         .HasName("CityId_StateId_CountryId_To_BusinessTable_FK");
 
       entity.Property(e => e.BusinessDaysAndHours)
