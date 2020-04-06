@@ -141,21 +141,26 @@ namespace BusinessesDirectoryApi.Services
             throw new BusinessExistException(HttpStatusCode.BadRequest, String.Format("El negocio {0} tiene ese número telefónico, como teléfono secundario.", businessByPrimaryB.BusinessName));
           }
         }
-        if (UnsafeWordsChecker.IsSafe(businessToCreateDto.BusinessName))
+        if (!UnsafeWordsChecker.IsSafe(businessToCreateDto.BusinessName))
         {
           throw new UnsafeWordsException(HttpStatusCode.BadRequest,"No se permite la entrada de palabras soeces o vocabulario inapropiado en el nombre del negocio.");
         }
-        if (UnsafeWordsChecker.IsSafe(businessToCreateDto.BusinessDescription))
+        if (!UnsafeWordsChecker.IsSafe(businessToCreateDto.BusinessDescription))
         {
           throw new UnsafeWordsException(HttpStatusCode.BadRequest,"No se permite la entrada de palabras soeces o vocabulario inapropiado en la descripción del negocio.");
         }
-        if (UnsafeWordsChecker.IsSafe(businessToCreateDto.InFacebookAs))
+        if (!UnsafeWordsChecker.IsSafe(businessToCreateDto.InFacebookAs))
         {
           throw new UnsafeWordsException(HttpStatusCode.BadRequest,"No se permite la entrada de palabras soeces o vocabulario inapropiado en la referencia de Facebook.");
         }
-        if (UnsafeWordsChecker.IsSafe(businessToCreateDto.InInstagramAs))
+        if (!UnsafeWordsChecker.IsSafe(businessToCreateDto.InInstagramAs))
         {
           throw new UnsafeWordsException(HttpStatusCode.BadRequest,"No se permite la entrada de palabras soeces o vocabulario inapropiado en la referencia de Instagram.");
+        }
+        var email = await _businessRepository.FindBusinessByEmail(businessToCreateDto.BusinessEmail);
+        if (email != null)
+        {
+          throw new BusinessExistException(HttpStatusCode.BadRequest, String.Format("El negocio {0} tiene ese correo electrónico.", email.BusinessName));
         }
         var businessToCreate = _mapper.Map<Business>(businessToCreateDto);
         return await _businessRepository.AddABusiness(businessToCreate);

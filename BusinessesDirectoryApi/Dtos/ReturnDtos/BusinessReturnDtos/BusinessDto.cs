@@ -8,6 +8,7 @@ namespace BusinessesDirectoryApi.Dtos.ReturnDtos.BusinessReturnDtos
   {
     public Guid BusinessId { get; set; }
     public string BusinessName { get; set; }
+    public string BusinessEmail { get; set; }
     public BusinessTypeDto BusinessType { get; set; }
     public string BusinessDescription { get; set; }
     public string PrimaryPhoneNumber { get; set; }

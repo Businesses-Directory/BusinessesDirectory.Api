@@ -8,22 +8,22 @@ using System;
 
 namespace BusinessesDirectoryApi.Repositories.TypesRepositories
 {
-  public class BusinessTypeRepository : IBusinessTypeRepository
-  {
-    private readonly BusinessesDirectoryContext _context;
-    public BusinessTypeRepository(BusinessesDirectoryContext context)
+    public class BusinessTypeRepository : IBusinessTypeRepository
     {
-      this._context = context;
+        private readonly BusinessesDirectoryContext _context;
+        public BusinessTypeRepository(BusinessesDirectoryContext context)
+        {
+            this._context = context;
+        }
+        public async Task<ICollection<BusinessType>> FindBusinessTypes()
+        {
+            return await _context.BusinessType
+              .OrderBy(bt => bt.BusinessTypeNormalizedName)
+              .ToListAsync();
+        }
+        public async Task<BusinessType> FindBusinessType(Guid id)
+        {
+            return await _context.BusinessType.FirstOrDefaultAsync(bt => bt.BusinessTypeId == id);
+        }
     }
-    public async Task<ICollection<BusinessType>> FindBusinessTypes()
-    {
-      return await _context.BusinessType
-        .OrderBy(bt => bt.BusinessTypeNormalizedName)
-        .ToListAsync();
-    }
-    public async Task<BusinessType> FindBusinessType(Guid id)
-    {
-      return await _context.BusinessType.FirstOrDefaultAsync(bt => bt.BusinessTypeId == id);
-    }
-  }
 }

@@ -13,6 +13,9 @@ namespace BusinessesDirectoryApi.Dtos.CreateDtos.BusinessDtos
     public string BusinessTypeId { get; set; }
     [Required (ErrorMessage = "Especifique la descripción del negocio.")]
     public string BusinessDescription { get; set; }
+    [Required(ErrorMessage = "Especifique el correo electrónico.")]
+    [EmailAddress (ErrorMessage = "El formato del correo electrónico esta incorrecto.")]
+    public string BusinessEmail { get; set; }
     [Required (ErrorMessage = "Escriba el número telefónico primario del negocio.")]
     [Phone (ErrorMessage = "Escriba un número telefónico válido.")]
     public string PrimaryPhoneNumber { get; set; }
